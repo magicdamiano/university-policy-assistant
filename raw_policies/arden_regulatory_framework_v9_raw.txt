@@ -1,0 +1,1318 @@
+Regulatory Framework:
+Regulations and Procedures Governing Taught
+Programmes of Study Leading to Awards –
+General Principles and Guidelines
+December 2024
+Version 9
+Arden University Regulatory Framework v9 December 2024
+Page 1 of 36
+
+TABLE OF CONTENTS
+SUMMARY OF CHANGES SINCE THE PREVIOUS EDITION ....................................................... 4
+INTRODUCTION................................................................................................................................ 6
+QUALITY STATEMENT .................................................................................................................... 7
+AWARDS OF THE UNIVERSITY ...................................................................................................... 8
+Programme Structure .............................................................................................................. 10
+Types of award ....................................................................................................................... 11
+AWARD TITLES .............................................................................................................................. 11
+Periods of Registration ............................................................................................................ 15
+INFORMATION GIVEN TO STUDENTS ........................................................................................ 16
+Principles ................................................................................................................................ 16
+Programme Information .......................................................................................................... 17
+RECRUITMENT AND ENROLMENT OF STUDENTS ................................................................... 17
+Admissions ............................................................................................................................. 17
+Recognition of Prior Learning .................................................................................................. 18
+Readmission to a Programme of Study ................................................................................... 18
+REGULATIONS FOR PROGRAMME TAUGHT IN LANGUAGES OTHER THAN ENGLISH ..... 19
+ASSESSMENT REGULATIONS ..................................................................................................... 20
+Assessment Principles ............................................................................................................ 20
+Assessment Design ................................................................................................................ 22
+Conduct of Assessment .......................................................................................................... 22
+Assessment Submission ......................................................................................................... 23
+Late Submission ..................................................................................................................... 23
+Submission, Deferral and Extension ....................................................................................... 23
+Extenuating Circumstances in Assessment ............................................................................. 23
+Deviating from Word Limits ..................................................................................................... 24
+Assessment Integrity and Misconduct ..................................................................................... 24
+Assessment of Students with Special Educational Needs (SEN) ............................................. 25
+Marking ................................................................................................................................... 25
+Internal Moderation and Second Marking ................................................................................ 25
+External Examination .............................................................................................................. 25
+Subject Assessment Board ..................................................................................................... 26
+Arden University Regulatory Framework v9 December 2024
+Page 2 of 36
+
+Progression and Award Boards ............................................................................................... 26
+Appeals ................................................................................................................................... 27
+PROGRESSION DECISIONS ......................................................................................................... 27
+Compensation: Undergraduate Programmes .......................................................................... 30
+Compensation: Postgraduate Programmes ............................................................................. 30
+CONFERMENT OF AWARDS ........................................................................................................ 31
+A. Pass Awards ....................................................................................................................... 31
+B. Classification for Degree with Honours ............................................................................... 31
+C. Pass, Merit and Distinction awards ..................................................................................... 32
+STUDENTS WITH SPECIAL EDUCATIONAL NEEDS ................................................................. 33
+VALIDATION AND PROGRAMME APPROVAL ........................................................................... 33
+ACADEMIC GOVERNANCE, MONITORING AND REVIEW ........................................................ 35
+Arden University Regulatory Framework v9 December 2024
+Page 3 of 36
+
+SUMMARY OF CHANGES SINCE THE PREVIOUS EDITION
+Summary of Revisions and Amendments to Regulatory Framework in edition 9 (since edition 8)
+Section(s) of Regulation Reference Details of Change
+Regulations
+Introduction, Quality 3, 8, 9 Removed reference to QAA as
+Statement designated quality body.
+Introduction 4 Reference to new Academic
+Framework, Regulation & Policy
+Committee added.
+Quality Statement 7 Refinement of wording on
+availability of papers through
+iquality/Arden University website.
+Awards of the 10-13 Principles section moved to start,
+University and new principles (12 and 13)
+added to refer to partner awards
+with links to relevant procedures
+and to confirm that the University
+is responsible for the academic
+standards of all awards made in its
+name.
+Academic Awards 14 New awards added (BEng, BDes
+and MEng)
+Academic Awards 16 Update to standard timing of
+assessment to include mid-point
+option as well as endpoint.
+Programme 19 Integrated master’s added to
+Structure credit table.
+Award Titles 24-25 Statement added on award titles
+Standard 36-37 Clarity added on programme
+Undergraduate and differentiation for different
+Postgraduate awards with shared modules.
+Programmes
+Programme 41 Update to state that any student
+Durations, Mode and registered for less than 100 credits
+Pace of Study on a UG programme will be
+classed as part time.
+Programme 44-49 Wording refined for clarity.
+Durations, Mode and
+Pace of Study
+Programme 45 Regulation added to state part-
+Durations, Mode and time students studying by online
+Pace of Study distance learning on
+undergraduate programmes must
+release a minimum of three
+taught modules at level 6 before
+Arden University Regulatory Framework v9 December 2024
+Page 4 of 36
+
+releasing their dissertation/major
+project module.
+Programme 46 Regulation added to state part-
+Durations, Mode and time students studying by online
+Pace of Study distance learning on
+postgraduate programmes must
+release a minimum of four taught
+modules before releasing their
+dissertation/major project
+module.
+Periods of 51 Additional year added to each
+Registration maximum period of registration
+for full time programmes
+Honorary Awards 55 Updated to state that Honorary
+Award nominations should be
+approved by the Vice Chancellor
+and Provost before proceeding to
+the Honorary Awards Committee
+Honorary Awards 62 Reference to Board of Governors
+changed to Board of Directors.
+Readmission to a 75-79 Updated to state that modules
+Programme of Study passed on one programme may
+not be reattempted as part of a
+further programme of study.
+Clarification provided around
+students who are in debt to the
+university, readmission will only
+be considered once the debt is
+cleared.
+Programme Delivery 83 Regulation added to state that for
+all programmes, module
+enrolments must be confirmed on
+Monday of teaching week two.
+Assessment 95 Regulation updated to refer
+Principles students to the MDF guidance
+notes for descriptions of
+assessment types.
+Assessment 98 Statement added to detail the
+Principles different categories of module
+types.
+Assessment 96 Removed expectation for each
+Principles module to be assessment by a
+single component of assessment.
+Conduct of 111-114 Clarification added on the conduct
+Assessment of Time Constrained Assessments
+and MCQs. Information updated
+to refer students to QA99
+Examination Procedures, Rules
+Arden University Regulatory Framework v9 December 2024
+Page 5 of 36
+
+and Regulations regarding
+conduct of examinations.
+Submission, Deferral 120 Regulation added to clarify
+and Extension maximum timeframe for
+submission of a dissertation.
+Progression 152 Regulation updated to state that
+Decisions resits must normally be completed
+at the next study block, or within
+two blocks for major projects and
+dissertations.
+Progression, Level 162 Table of Progression and Award
+Completion and Board outcomes updated, and
+Withdrawal definitions added.
+Progression, Level 163 Requirement added for distance
+Completion and learning students to access retake
+Withdrawal modules before attempting
+modules at the next level
+Compensation 173 Removed requirement for
+qualifying mark to be achieved in
+all components of multipart
+assessment for compensation to
+be applied.
+Conferment of 177-188 Clarified wording and updated
+Awards regulation to clarify that all credit
+will be used in the PG award
+classification calculation where
+RPL has been granted.
+Validation and 186 Regulation updated to clarify that
+Programme Approval proposals for new programmes
+must receive permission from the
+Portfolio Management Group.
+INTRODUCTION
+1. This Regulatory Framework is to be used for the development and delivery of programmes of study
+leading to an Arden University award and is a guide for the delivery of all the University’s
+programmes and for the production of validation documents, programme handbooks and
+programme specifications. It also provides the framework for periodic review and annual monitoring
+to ensure that programmes are being delivered in accordance with the Regulatory Framework. Once
+approved, programme handbooks and specifications are the definitive documents to be used for
+delivery and assessment of the programmes of study. Any programmes that deviate from the
+Regulatory Framework, e.g. due to the requirements of a professional accrediting body, must have
+the prior approval of Academic Board and must be clearly outlined in the programme handbook.
+2. In the case of programmes delivered on behalf of an external awarding body partner, these
+regulations should either be approved by the partner for the delivery of specific programmes or
+superseded by the partner’s own regulations pertaining to the named award. Programme handbooks
+produced for partner programmes must clearly identify where the individual programme regulations
+deviate from these generic regulations.
+Arden University Regulatory Framework v9 December 2024
+Page 6 of 36
+
+3. This framework takes full account of the expectations set out in the within the relevant legislation
+which all UK higher education providers are required to meet.
+4. The custodian of this document is the Academic Board, which is responsible for its approval and any
+amendments. The Academic Board has established a sub-committee, the Academic Framework,
+Regulation and Policy Committee, which has responsibility for the day-to-day operation of the
+regulations within the framework and for proposing any amendments to the framework to Academic
+Board. The Academic Framework, Regulation and Policy Committee is also responsible for ruling on
+any issues of interpretation or ambiguity that may arise from time to time between meetings of the
+Academic Board.
+Quality Assurance Documents
+5. The Regulatory Framework additionally comprises a series of supplementary Quality Assurance
+Documents, which are quality assurance policies and procedural documents. The Academic
+Framework, Regulation and Policy Committee have delegated authority from Academic Board for the
+approval and ongoing maintenance of these documents. Reference is made to these documents,
+where appropriate, throughout this Regulatory Framework.
+QUALITY STATEMENT
+6. As a private Higher Education Provider with its own UK Taught Degree-Awarding Powers delivering
+higher education throughout the world, the University aims to provide the best possible learning
+opportunities to its students, which meet the expectations of the UK higher education sector and are
+consistent with its vision and its commercial targets and aspirations. To achieve this, we aim to
+operate efficiently without unnecessary bureaucracy and complexity. Our approach to quality is,
+therefore, based on monitoring and providing information, which is easily understood, available to all
+stakeholders, and presented with timeliness such that decisions can be made rapidly to alleviate
+problems and improve learner experience. Much of our data are collected and communicated online
+with maximum stakeholder input at all stages within the monitoring and feedback process.
+7. The Regulatory Framework and associated Quality Assurance documents are available to Arden
+University staff on “iquality”, the University’s SharePoint site dedicated to hosting quality and
+governance related documentation. It also facilitates the management of the academic committee
+structures which includes online discussions relating to quality issues and prompts staff to respond to
+actions and attend meetings scheduled within the quality cycle. The Regulatory Framework and key
+student policies are also available for students to access on Arden University’s website.
+8. Our aim is to:
+• Provide students with the best possible learning opportunities, consistent with the aims and
+objectives of their programme of study.
+• Maintain the highest academic standards consistent with the expectations of the Office for
+Students.
+• To operate an efficient business model which will provide value for money and high-quality
+learning opportunities to students and return appropriate profit margins for onward development
+and the maintenance of shareholder investment.
+9. We do this by:
+Arden University Regulatory Framework v9 December 2024
+Page 7 of 36
+
+• Providing clear and accurate information to students both pre and post enrolment.
+• Designing courses that are fit for purpose and can meet the requirements of students and
+external stakeholders.
+• Having systems and processes in place which fully enable us to meet the expectations of the UK
+higher education sector, including the Office for Students.
+• Continually monitoring quality through:
+- Student performance, retention and progression data.
+- Feedback from students and other stakeholders.
+- Feedback from academic teams and support staff.
+- Feedback from external organisations, partners and, where appropriate, employer groups
+and corporate customers.
+- Feedback from External Examiners.
+- Employment and other destination data.
+• Continually improving our provision in response to the feedback and information received
+through monitoring.
+• Making sure that the balance of our resources goes towards delivery and the quality of the
+student learning opportunities.
+• Undertaking annual monitoring of programme provision, learning and teaching strategies and
+continually developing and enhancing learning provision.
+• Managing risk in order to ensure a consistent and robust study experience.
+• Strategically managing our provision to maintain growth and consistently meet expected
+academic standards.
+• Developing our staff to ensure maintenance of the highest possible academic standards.
+AWARDS OF THE UNIVERSITY
+Principles
+10. The University offers the academic awards detailed in section 14 below.
+11. Award titles should be used consistently across the University’s awards and should accurately reflect
+the subject content of the programme.
+12. The University may offer dual or joint or awards in partnership with other awarding bodies as part of
+and approved collaborative partner arrangement. [QA 95 Dual Award Approval Monitoring and
+Management Procedure]
+Arden University Regulatory Framework v9 December 2024
+Page 8 of 36
+
+13. The University is responsible for the academic standard of all awards made in its name, at all
+locations of delivery.
+ACADEMIC AWARDS
+14. The University confers the following awards:
+• Undergraduate Bachelor’s Degree with Honours, using the following designations:
+o Bachelor of Arts with Honours (BA (Hons))
+o Bachelor of Science with Honours (BSc (Hons))
+o Bachelor of Law (LLB (Hons))
+o Bachelor of Engineering (BEng)
+o Bachelor of Business Administration (BBA (Hons))
+• Bachelor’s Degree without Honours (Ordinary Degree), using the following designations:
+o Bachelor of Arts (BA)
+o Bachelor of Science (BSc)
+o Bachelor of Law (LLB)
+o Bachelor of Design (BDes)
+• Foundation Degree, using the following designations:
+o Foundation in the Arts (FdA)
+o Foundation in the Sciences (FdSc)
+• Diploma of Higher Education (Dip HE)
+• Certificate of Higher Education (Cert HE)
+• Foundation Certificate
+• Graduate Diploma
+• Professional Certificate
+Taught Postgraduate
+• Master’s Degree, using the following designations: MA, MSc, MBA, LLM, MEng
+• Postgraduate Diploma (PG Dip)
+• Postgraduate Certificate (PG Cert)
+Arden University Regulatory Framework v9 December 2024
+Page 9 of 36
+
+15. An award is the qualification conferred on a student who had successfully achieved and
+accumulated the required amount of credit through a programme of study.
+16. A programme of study (programme) consists of modules, which are a discrete body of learning
+leading to specified learning outcomes. Assessment of learning outcomes normally takes place
+during week 6 (mid-point assessment) or during week 10 (end point assessment) of the study block
+in which a module is delivered. Modules normally have a credit value of 20 credits or multiples of
+20 credits.
+17. Credit is used in the context of the Higher Education Credit Framework for England1 and awarded
+0F
+to a student in recognition of the verified achievement of the learning outcomes that are specified
+in the relevant programme handbook and verified through an assessment process.
+18. The Professional Certificate is an award between 20-120 credits designed for a specific market need
+or with a specific vocational, professional or employer focus. It may be awarded at any level and
+may include modules at different levels provided that the programme specification demonstrates
+an appropriate fit with the Framework for Higher Education Qualifications of Degree-Awarding
+Bodies in England, Wales and Northern Ireland (FHEQ).
+Programme Structure
+19. A programme must contain a prescribed set of credits in order to meet the requirements of a
+specified award, as set out in the following table. Credit counted towards awards must be achieved
+at the specified or a higher level. Exceptions detailed within the footnotes may be considered
+during the programme design and validation.
+Award Minimum Level 3 Level 4 Level 5 Level 6 Level 7
+credit
+Bachelor’s Degree with Honours 480 120 120 120 120
+with integrated foundation year
+Bachelor’s Degree with Honours 360 120 120 120
+Bachelor’s Degree without Honours 300 120 120 60
+(Ordinary Degree)
+Foundation Degree 240 120 120
+Diploma of Higher Education (Dip 240 120 120
+HE)
+Certificate of Higher Education (Cert 120 120
+HE)
+Foundation Certificate 120 120
+Graduate Diploma 120 120
+Professional Certificate 20-120 20-120
+1 http://www.qaa.ac.uk/assuring-standards-and-quality/academic-credit
+Arden University Regulatory Framework v9 December 2024
+Page 10 of 36
+
+Master’s Degree 180 1802
+1F
+Postgraduate Diploma (PG Dip) 120 1202
+Postgraduate Certificate (PG Cert) 60 60
+Integrated Master’s 480 120 120 120 120
+Types of Awards
+20. A target award is a named award (e.g. BSc Computing) for which a student has registered to study.
+21. An exit award is conferred on a student who, having originally registered for a programme leading to
+a target award, has not completed that course for whatever reason, including:
+• Voluntary withdrawal, e.g. for personal reasons.
+• Academic failure.
+• Preclusion from the award for disciplinary or other reasons.
+22. An exit award is conferred only if a student has satisfied all the specific credit requirements specified
+in the programme handbook relevant for that award.
+23. Students who are granted module exemptions through Recognition of Prior Learning will only be
+eligible for an exit award if at least 50% of the credits required for that exit award are achieved
+through Arden University.
+AWARD TITLES
+24. Programmes titles should accurately reflect the unique content or focus of the curriculum.
+25. No two programmes that include the same combination of modules should have the same award
+title.
+Joint Honours Degrees
+26. Joint honours degrees (e.g. BSc Criminology and Psychology) should contain an equal disciplinary
+weighting at levels 4, 5 and 6. Students will normally complete a project or dissertation at Level 6,
+which may be in either subject area or integrated between the two subjects. Award titles should
+state both subject areas, in the format Subject A “and” Subject B.
+27. In order for a Certificate of Higher Education to be awarded with a joint subject title, a student must
+have completed at least 40 credits worth of modules in each subject area at Level 4 (credits not
+necessarily divisible in whole modules where subjects are integrated).
+2 May include a maximum of 20 credits at level 6 within this total.
+Arden University Regulatory Framework v9 December 2024
+Page 11 of 36
+
+28. In order for a Diploma of Higher Education to be awarded with a joint subject title, a student must
+have completed at least 40 credits worth of modules in each subject area at levels 4 and 5 (credits
+not necessarily divisible in whole modules where subjects are integrated). Award titles should state
+both subject areas, in the format Subject A “and” Subject B.
+Specialist Routeways
+29. Specialist routeways through undergraduate degree programmes (e.g. BSc Business (Marketing))
+should contain at least 20 credits worth of modules in the specialist subject area at level 5 and at
+least 60 credits worth of modules in the specialist subject area at level 6, normally including a project
+or dissertation, in order for the specialist routeway title to be awarded. Award titles should state the
+broad degree subject first, followed by the specialist routeway title in parentheses.
+30. In order for a Diploma in Higher Education to be awarded with a specialist routeway title, a student
+must have completed at least 40 credits worth of modules in the specialist subject area at Level 5.
+Award titles should state the broad subject studied first, followed by the specialist routeway title in
+parentheses.
+31. Certificates of Higher Education will not be awarded with specialist routeway titles.
+Major and Minor Subjects
+32. Honours degrees with a named minor subject (e.g. BSc Economics with Statistics) should contain at
+least 80 credits and no more than 120 credits worth of modules studied in the minor subject across
+levels 4, 5 and 6. Award titles should state both subject areas, in the format Major Subject “with”
+Minor Subject.
+33. Top-up degrees may be awarded with a named minor subject where the student has attained the
+relevant subject credits across level 4 and 5 on their previous programme and/or their level 6 credits
+achieved.
+Postgraduate Specialist Routeways
+34. Specialist routeways through postgraduate programmes (e.g. MBA (Finance)) should contain at least
+40 credits worth of modules in the specialist subject area in total across the Postgraduate Certificate
+and Postgraduate Diploma stages of the programme, plus at least 40 credits in the specialist subject
+area in the Masters stage, in order for the specialist routeway title to be awarded. Award titles
+should state the broad subject first, followed by the specialist routeway title in parentheses.
+35. In order for a Postgraduate Certificate to be awarded with a specialist routeway title, a student must
+have completed at least 20 credits worth of modules in the specialist subject area. In order for a
+Postgraduate Diploma to be awarded with a specialist routeway title, a student must have completed
+at least 40 credits worth of modules in the specialist subject area. Award titles should state the broad
+subject first, followed by the specialist routeway title in parentheses.
+Standard Undergraduate Programmes
+Arden University Regulatory Framework v9 December 2024
+Page 12 of 36
+
+36. For an undergraduate honours degree that shares modules with another programme, there should
+be at least 40 credit differentiation in taught modules at Levels 5 and 6 to justify the award title.
+Standard Postgraduate Programmes
+37. For a postgraduate degree that shares modules with another programme, there should be at least
+40 credit differentiation in taught modules across the programme to justify the award title.
+PROGRAMME DURATIONS, MODE AND PACE OF STUDY
+38. Programmes are designed to be delivered full-time or part-time across a range of approved delivery
+models such as online distance learning, blended learning, or as apprenticeships.
+39. An undergraduate full-time student shall normally register for a maximum of 120 credits per year in
+an academic year. Where a student has been permitted retakes (see paragraph 164), a student may
+enrol for a maximum of 160 credits per year where 40 credits are retake modules.
+40. A postgraduate full-time student shall normally register for a maximum of 180 credits per year.
+41. Any student registered for less than 100 credits on undergraduate programmes or 120 credits or less
+on postgraduate programmes will be classed as part-time. This excludes modules where a student
+has a resit or extenuating circumstances outstanding on an assessment.
+42. Students who enrol on full-time programmes and are unable to progress until they redeem failed
+modules by retakes, will be registered for the next academic year as part-time if studying fewer than
+120 credits per year.
+43. All students enrolled on a distance learning programme will be registered as part-time. Online
+distance learning programmes are designed to enable students to progress through the programme
+with the flexibility to set their own pace of study. However, students are expected to achieve a
+minimum of 40 credits per year to ensure they can successfully complete the programme in the
+maximum registration period (see above). Failure to maintain this pace will result in withdrawal from
+the programme at annual review by the Progression and Award Board.
+44. Part-time students studying by online distance learning are permitted to release a maximum of 40
+credits per block. Where one of the active modules is a dissertation or final project a student is
+permitted to study a maximum of 60 credits in the relevant block (excluding resits).
+45. Part-time students studying by online distance learning on undergraduate programmes must release
+a minimum of three taught modules at level 6 before releasing their dissertation/major project
+module.
+46. Part-time students studying by online distance learning on postgraduate programmes must release a
+minimum of four taught modules before releasing their dissertation/major project module.
+Arden University Regulatory Framework v9 December 2024
+Page 13 of 36
+
+47. Part-time students studying by online distance learning cannot normally complete more than 120
+credits per year (the equivalent to a full-time pace of study).
+48. Part-time distance learning students studying on a postgraduate programme are permitted to
+release a maximum of 40 credits per block. Where one of the active modules is a dissertation or final
+project, in which case a student is permitted to study a maximum of 60 credits in the relevant block
+(excluding resits).
+49. In cases where a prescribed framework and pace of study is determined for specific programmes, this
+will be considered by the Academic Framework, Regulation and Academic Policy Committee and
+confirmed as part of the programme validation. Details should be set out in the programme
+specification and reflected in the relevant programme handbook and student handbook. Where a
+student has been admitted with Recognition of Prior Learning, the maximum registration periods will
+be calculated pro rata to the number of credits required to study, in accordance with the University’s
+RPL policy.
+50. The maximum registration period may be extended up to one year in exceptional circumstances
+where serious, medium to longer term circumstances mean that a student is unable to study for
+significant periods of time. Requests will be subject to approval by the Academic Registrar.
+Arden University Regulatory Framework v9 December 2024
+Page 14 of 36
+
+Periods of Registration
+51. The standard programme duration and maximum periods of registration (including periods of suspension, breaks in learning and
+withdrawal) for programmes leading to an Arden University award are detailed in the table below.
+52. Students must complete the re-enrolment process annually:
+• For online distance learning programmes, students are required to re-enrol by the first Monday of their next study block. Failure to do so will
+result in suspension of their student account and an enforced break in learning will be applied. Students that fail to re-enrol within 12-months of
+this date will be withdrawn from the University.
+• For blended learning programmes, students must re-enrol by the first Monday of their next study block. Failure to do so will result in suspension
+of their student account and withdrawal from the University.
+Award Credits Full-time Part-time
+Standard Maximum Period Standard Duration3 & Maximum Period of
+Duration2F3 & 5 of Registration3F4 4F5 Registration4
+Honours Degree with integrated foundation year 480 4 years 6 years 8 years 12 years
+Honours Degree 360 3 years 5 years 6 years 9 years
+Honours Degree Top Up 120 1 year 3 years 2 years 3 years
+Higher National Certificate 120 1 year 3 years 2 years 3 years
+Foundation Degree, Diploma of Higher Education, Higher National Diploma 240 2 years 4 years 4 years 6 years
+Graduate Diploma, Certificate of Higher Education, Foundation Certificate 120 1 year 3 years 2 years 3 years
+Professional Certificate 20-120 Up to 1 year 3 years Up to 2 years 3 years
+Master’s Degree 180 1 year 3 years 2 years 5 years
+Master’s Top Up 60 - - 1 year 2 years
+Postgraduate Diploma (PG Dip) 120 1 year 3 years 2 years 3 years
+Postgraduate Certificate (PG Cert) 60 6 months 2 years 1 year 2 years
+3 Registration periods for students admitted with Recognition for Prior Learning will be calculated pro rata in accordance with the University’s RPL policy.
+4 The maximum period of registration may be extended in exceptional circumstances by up to one year at the discretion of the Academic Registrar.
+5 Individual programmes may be designed to be completed at a pace of study outside of the standard duration set out above. Such periods will be stated in the programme handbook.
+Arden University Regulatory Framework v9 December 2024
+Page 15 of 36
+
+HONORARY AWARDS
+53. The University may confer the following honorary awards to persons who have achieved distinction in
+their field or made major contributions to the University:
+• Honorary Doctorate, using the following designations: Hon DBA, Hon DLaws, Hon DSc, Hon
+DUniv
+• Honorary Fellow (Hon)
+54. The award of Honorary Fellow shall normally be conferred upon persons who have made an
+outstanding contribution to the University or to society.
+55. All nominations for honorary awards will be approved by the Vice Chancellor and Provost before they
+proceed to the Honorary Awards Committee of the Academic Board for consideration.
+56. Nominations for Honorary Degrees and Fellowships will be considered by an Honorary Awards
+Committee, membership of which will comprise the Chair of Academic Board and two further
+members of the Academic Board. Recommended recipients will be presented to the Academic Board
+for final approval.
+57. Where the Academic Board resolves to approve the conferment of an honorary degree or honorary
+fellowship, the Vice Chancellor and Chief Executive Officer will write to the person who is to be
+awarded the honorary degree or fellowship inviting them to accept the award.
+58. The names of nominees who accept the offer of an honorary award will be reported to the Academic
+Board.
+59. Honorary awards will normally be conferred at scheduled University award ceremonies. However,
+with the agreement of the Academic Board, honorary awards may be conferred at other appropriate
+events. Honorary awards will not normally be awarded in absentia. An honorary award may be
+awarded posthumously, subject to the normal criteria for the award being satisfied.
+60. The Academic Board reserves the right to withdraw an honorary award if, in its opinion, the recipient
+would bring the reputation of the University into disrepute by continuing to hold that award.
+61. There is no right of appeal against such a decision to withdraw such an award and in the event of an
+emergency an award may be withdrawn on the authority of the Vice Chancellor and confirmed at the
+next available meeting of the Academic Board.
+62. The Board of Directors has the responsibility and authority to make the following appointments:
+University Chancellor; and Member(s) of the Board of Directors. The Nominations Committee of the
+Board of Directors will consider nominations and make recommendations to the Board of Directors.
+These appointments will be reported to Academic Board.
+[Quality Assurance Document QA 90 – Criteria for Award of Honorary Doctorate]
+INFORMATION GIVEN TO STUDENTS
+Principles
+63. Students will be provided with clear and accurate information to support them in their application to,
+and subsequently their study with, Arden University.
+Arden University Regulatory Framework v9 December 2024
+Page 16 of 36
+
+Programme Information
+64. All publicity and marketing material must be approved prior to publication in accordance with the
+requirements specified in the following document:
+[Quality Assurance Document QA 1 – Publicity and Marketing Material Production Procedures]
+65. For each programme of study, students will be provided, as a minimum, with:
+66. Student Handbook - A definitive guide to studying with Arden University, including the provision of
+general information for students, staff contact details, details of learning support, staff/student
+obligations, course information, study and assessment details and links to policies and regulations.
+Handbooks are produced in accordance with the Procedure for the Production, Publication and
+Amendment of Student Handbooks.
+[Quality Assurance Document QA 2 – Procedure for the Production, Publication and Amendment of
+Student Handbooks]
+67. Programme Handbook – Comprising a concise overview of the programme structure with links to the
+relevant Programme Specification and Module Descriptors for each of the modules available as part
+of the student’s chosen programme of study. The Programme Specification sets out the intended
+learning outcomes from a higher education programme, and how these outcomes can be achieved
+and demonstrated. Programme Specifications and Module Descriptors are developed in accordance
+with the templates set out in the following Quality Assurance Documents and will be approved as
+part of the validation or periodic review process.
+[Quality Assurance Document QA 3 – Programme Specification Form]
+[Quality Assurance Document QA 40 – Module Descriptor Form]
+68. Module Learning Material – for each module studied, the student receives access to learning
+material which allows the student to achieve the learning outcomes for the module. The learning
+material forms a key element of the University’s Learning, Teaching and Assessment Strategy and will
+be produced in line with the Procedure for the Production, Approval and Revision of Module
+Learning Material.
+[Quality Assurance Document LTC 04 – Procedure for the Production, Approval and Revision of
+Module Learning Material/Guidelines for the Production of Online Interactive Learning Materials]
+RECRUITMENT AND ENROLMENT OF STUDENTS
+Admissions
+69. The University is committed to providing a fair and equitable admissions process to all applicants. We
+recognise and welcome the fact that our students come from a variety of backgrounds. The
+overriding principles in determining a candidate’s suitability for admission to a programme are that
+there is a reasonable expectation that the candidate:
+• Will be able to fulfil the learning outcomes of the programme and achieve the standard
+required for an award.
+• Has the motivation to succeed.
+Arden University Regulatory Framework v9 December 2024
+Page 17 of 36
+
+• Will benefit from the programme.
+70. The decision to admit a student is undertaken in accordance with the University’s Admissions Policy:
+[Quality Assurance Document QA 05 – Admission of Students]
+71. Specific programme entry criteria are set out in the programme specification and agreed during the
+validation process for the (re-)approval of a programme. They are also published and openly
+available on the University’s website (www.arden.ac.uk).
+72. Entry criteria will normally be consistent with the following minimum standards and with guidance
+issued from time to time by the Admissions Committee:
+• Undergraduate:
+• 2 UK A levels or equivalent, and
+• English language competence equivalent to IELTS 6.0 (no less than 5.5 in any element).
+• Overseas qualifications may be accepted subject to evidence of equivalency, which will
+normally be verified through ECCTIS (UK ENIC).
+• Suitable work experience may be accepted as an alternative on a case-by-case basis.
+• Postgraduate:
+• UK degree or equivalent, and
+• English language competence equivalent to IELTS 6.5 (no less than 6.0 in any element).
+• Overseas qualifications may be accepted subject to evidence of equivalency, which will
+normally be verified through ECCTIS (UK ENIC).
+• Suitable work experience may be accepted as an alternative on a case-by-case basis.
+Recognition of Prior Learning
+73. Recognition of Prior Learning (RPL) is the process through which a student may receive credit for
+learning achieved outside of the programme of the programme of study for which they are applying.
+74. Applications for RPL will be processed in accordance with the University’s RPL policy:
+[Quality Assurance Document QA 6 – Procedures for the Accreditation of Prior Learning]
+Readmission to a Programme of Study
+75. A student who has exited a programme with an interim award because they have not fulfilled the
+requirements of a higher award, or who has been withdrawn on the grounds of academic failure of a
+Arden University Regulatory Framework v9 December 2024
+Page 18 of 36
+
+programme, may not be readmitted to the same programme, or a programme that includes a
+previously failed core module within a period of three years.
+76. Applications for readmission to a different programme may be considered but will take full account
+of a student’s previous performance at the University and financial standing. Where readmission
+with credit is sought, cases will be considered in accordance with the University’s normal regulations
+with regard to the Recognition of Prior Learning.
+77. Modules passed on one programme may not be reattempted as part of a further programme of
+study. Modules failed on one programme may not be taken as first attempts again if this would
+exceed the maximum number of attempts permitted for that module. The University reserves the
+right to cap marks in line with these regulations for modules that are not first attempts.
+78. Students excluded because of assessment misconduct or disciplinary proceedings will not be
+considered for readmission to an Arden University programme.
+79. Students that are in debt to the University will not be considered for readmission unless debt is
+cleared in full.
+[Quality Assurance Document QA 6 – Procedures for the Recognition of Prior Learning]
+PROGRAMME DELIVERY
+80. Programmes are delivered in line with the University’s Learning, Teaching and Assessment Strategy,
+which is developed and reviewed annually by the Learning, Teaching and Assessment Committee.
+81. The Student Handbook and the University’s Student Charter between them set out the support
+mechanisms available to students and the responsibilities of the student which form part of a
+learning contract with students and are required in order for them to complete their programme of
+study.
+82. Learning materials will be developed in accordance with the processes and protocols set out in
+Quality Assurance Document QA 04 Procedure for the Production, Approval and Revision of Module
+Learning Material/Guidelines for the Production of Online Interactive Learning Materials.
+83. For all programmes, module enrolments must be confirmed on Monday of teaching week two.
+[Quality Assurance Document QA 04 – Procedure for the Production, Approval and Revision of
+Module Learning Material/Guidelines for the Production of Online Interactive Learning Materials]
+REGULATIONS FOR PROGRAMME TAUGHT IN LANGUAGES OTHER THAN ENGLISH
+For all programmes taught and assessed in languages other than English, the following requirements will
+apply:
+84. Marketing, Admissions, Teaching, Assessment and Student Support will all be delivered in the
+Language other than English; University staff supporting such activities will be bilingual in English and
+the relevant language of delivery. All publicity material will be submitted for approval in both English
+and the language of publication.
+85. Annual monitoring reports will be submitted in English.
+Arden University Regulatory Framework v9 December 2024
+Page 19 of 36
+
+86. The language of instruction will be recorded on the Academic Transcript and Certificate.
+87. All validated programmes will have in place a native-speaking External Examiner approved by the
+University.
+88. External Examiners will be fluent in the language of delivery and wherever possible, native speaking.
+89. Unless agreed otherwise by the Academic Registrar (and only for those programmes where all
+External Examiners and moderators have a working knowledge of the language concerned) then the
+following requirements for translation will apply:
+i. All draft examination questions (and model/example answers/assessment guidelines) together
+with assignment questions etc. (draft assessments in the language of assessment will be
+approved by the native speaking External examiner for approval)
+ii. An agreed proportion of at least 10% of assessed work contributing to the final award or
+degree classification. Such work will be drawn from across the students’ range of performance
+and ability (according to the requirements and specifications of the External Examiners and
+Moderators).
+iii. The above must include all assessed elements including Examination work, assignments,
+coursework, projects etc.
+90. All translations must be undertaken by a suitably qualified person provided such translations are
+submitted for verification to a qualified translator as specified above.
+91. Where special arrangements are made for any particular programme, (e.g. where content is highly
+specialised or technical) such arrangements must be approved in writing by the Academic Registrar
+and where necessary approved by the Quality and Standards Committee (QSC).
+92. With the prior approval of the External Examiner(s) and moderator, ‘real time’ oral translations may
+be acceptable, provided one translator is provided for each External Examiner.
+93. The QSC may take appropriate, immediate action where it is not satisfied that the regulations are not
+being correctly or appropriately applied; this may include suspension or cancellation of a programme
+in the event that academic standards are not maintained.
+ASSESSMENT REGULATIONS
+94. The following Assessment Regulations apply to all programmes of study leading to an award of Arden
+University, including those offered in collaboration with an approved partner organisation.
+Exceptionally, apprenticeship programmes funded by the Education and Skills Funding Agency (ESFA)
+and programmes that are subject to accreditation or recognition by a Professional, Statutory or
+Regulatory Body (PSRB) may be subject to variations to these assessment regulations in line with
+PSRB or ESFA requirements. Any such variations will be set out within the programme handbook and
+subject to agreement during the validation approval process. In all cases these Assessment
+Regulations will apply as minimum standards.
+Assessment Principles
+95. Programmes will provide a varied range of assessments, which take account of the learning
+outcomes of the modules, the development of skills, and the practicalities of managing the
+programme. Students will be provided with a detailed specification of what is required.
+Arden University Regulatory Framework v9 December 2024
+Page 20 of 36
+
+96. The purpose of summative assessment is to enable students to demonstrate that they have fulfilled
+the learning outcomes of the programme of study and achieved the standard required for the award
+they seek. Individual programmes will relate their learning outcomes to specific assessment
+requirements.
+97. The method of assessment for each module will be specified within the relevant Module Descriptor
+Form and agreed during the validation approval process (see MDF guidance notes for descriptions of
+assessment types).
+98. Modules will be categorised as standard, dissertation/major project or placement (for a description
+of each type, see MDF guidance notes).
+99. Programmes delivered through different delivery models may operate different methods of
+assessment, provided that both methods ensure student attainment of the same learning outcomes.
+Such variants are considered at validation and/or through major/minor modifications and periodic
+review.
+100. Assessment will be undertaken by competent and impartial examiners able to ensure that
+achievement is consistent with national standards. The University requires External Examiners to be
+associated with final assessments which may count towards an Arden University award.
+101. For Arden University awards, all items of assessment are marked on a fine graded or pass/fail
+basis, as defined on the Module Descriptor Form. The pass mark for undergraduate modules which
+are fine graded is 40%. The pass mark for postgraduate modules which are fine graded is 50%. For
+modules graded on a pass/fail basis, students must satisfy the criteria for a pass, as specified in the
+assessment criteria for that module.
+102. In the case that a module is assessed via more than one assessment output (multi-part
+assessment with separate components), the following will apply:
+• For undergraduate modules, a pass on the module requires a weighted average of 40% across all
+components and a minimum qualifying mark of 30% on each component. Students who have not
+achieved the qualifying mark in each assessment component are deemed to have failed the
+module and are referred for re-assessment in all component(s) where less than 40% has been
+achieved, even if the aggregate mark for the module is 40% or higher.
+• For postgraduate modules, a pass on the module requires a weighted average of 50% across all
+components and a minimum qualifying mark of 40% on each component. Students who have not
+achieved the qualifying mark in each assessment component are deemed to have failed the
+module and are referred for re-assessment in all component(s) where less than 50% has been
+achieved, even if the aggregate mark for the module is 50% or higher.
+• Where the overall weighted average is below the pass mark, only the failed component(s) is
+referred (irrespective of whether the qualifying mark is achieved) and only the failed component
+is capped.
+• If all components are below the pass mark, all are referred and the overall grade for the module
+is capped.
+103. Arden University reserve the right to conduct a viva voce examination on any assessment.
+Arden University Regulatory Framework v9 December 2024
+Page 21 of 36
+
+Assessment Design
+104. Assessment will be designed to ensure that the learning outcomes of each module are assessed at
+the appropriate level consistent with the named award and the framework for higher education
+qualifications (FHEQ) and the relevant QAA benchmark statements.
+105. For each academic level, generic grading criteria exist which provide students with clear guidance
+on what they need to do to achieve a particular grade. Generic grading criteria may be
+contextualised to a programme as part of the validation approval process.
+[Quality Assurance Document QA 62- Generic Grading Criteria]
+106. Assessments will be designed and set by a designated member of academic staff with expertise in
+the module subject area. The member of staff will normally be the Academic Module Leader
+responsible for the module in question.
+107. The assessment will be moderated by another member of academic staff with expertise in the
+module subject area. This moderation process is documented through an Internal Assessment
+Approval Form completed by the moderator.
+108. Additionally, all assessments relating to modules that count towards an Arden University award
+will be sent to the appropriate External Examiner for final moderation and approval.
+109. Assessment briefs will be prepared well in advance of the assessment deadline and published to
+students in line with timeframes set out in the student handbook.
+110. The following principles will be adhered to when designing assessments:
+• Each component of the assessment will be linked to the learning outcomes of the associated
+module of the programme.
+• The assessment will be designed to test learning outcomes at the appropriate level in
+accordance with the module descriptor.
+• Assessment criteria will clearly show what the students need to do to achieve the appropriate
+grade.
+• Students will be provided with a detailed specification of what is required.
+• Students will be given guidance on where to find information, the time to devote to the
+assessment, the maximum word count length, and any other assessment requirement(s).
+Conduct of Assessment
+111. Students are responsible for checking assessment and examination dates and times which are
+published on iLearn.
+112. Time Constrained Assessments (TCA) are digital assessments which must be completed within a
+set timeframe, normally 24 hours. Students will have no more than one TCA scheduled per 24-
+hour period.
+113. Multiple Choice Questionnaires (MCQ) are digital assessments which students can access during a
+specified timeframe and will have a set time limit to start and finish the questionnaire. Students
+will have no more than one MCQ scheduled in a 24-hour period.
+Arden University Regulatory Framework v9 December 2024
+Page 22 of 36
+
+114. Examination procedures, rules and regulations are set out in QA99 Examination Procedures,
+Rules and Regulations.
+Assessment Submission
+115. All students of Arden University who, by the given dates, have satisfied the requirements of the
+regulations with regard to registration and all formal programme requirements shall be eligible for
+assessment.
+116. The University has established processes for the submission and handling of assessments, and
+these are communicated to students in the relevant student handbook and/or assessment brief(s).
+117. At the commencement of study students will be provided with access to iLearn where they can
+access:
+• An assessment timetable giving the times at which assessments for a particular module can be
+submitted.
+• Links to assessment regulations and polices pertaining to the relevant programme of study.
+Late Submission
+118. If there is no good reason or exceptional mitigating circumstance for late submission of assessed
+work, then the work submitted will be allocated a mark of zero.
+Submission, Deferral and Extension
+119. Students will be automatically registered for assessment at the first sitting for taught modules and
+will be expected to submit assessment on the given deadline, unless a claim for extenuating
+circumstances is submitted and upheld. Students who fail to submit will be deemed to have failed
+the assessment, unless a claim for extenuating circumstances is submitted and upheld.
+120. For dissertations and major projects, students will be expected to submit on the given deadline. For
+online distance learning programmes, submission of dissertations or major projects must normally
+be within 12 months of the release of the module, unless a claim for extenuating circumstances is
+submitted and upheld.
+121. Assessment deadlines may be extended for individual students, up to a maximum of one week in
+the event that a student is affected by genuine exceptional circumstances which come to light on or
+around the deadline and impacts their ability to submit their work. In the case of a Time
+Constrained Assessment (TCA), Exam, Digital Exam, Multiple Choice Quiz (MCQ), no extension of
+deadline will be permitted.
+Extenuating Circumstances in Assessment
+122. The extenuating circumstances process is where allowance is made for any matter or circumstance
+which may have seriously affected a student’s performance in an assessment.
+Arden University Regulatory Framework v9 December 2024
+Page 23 of 36
+
+123. The extenuating circumstances process applies where circumstances have arisen that were both
+unanticipated and beyond the student’s control and either have impacted a student’s ability to
+attend an examination or to submit an assessment by the specific deadline; or have had a seriously
+adverse effect on the student’s performance.
+124. The criteria for eligibility for extenuating circumstances, and the process for making and
+considering claims for extenuation is governed by QA 41 – Extenuating Circumstances Affecting
+Student Assessment.
+[QA 41 – Extenuating Circumstances Affecting Student Assessment]
+Deviating from Word Limits
+125. Assessment briefs will specify which elements of the assessment text will be included within the
+maximum word limit.
+126. A written assessment must not exceed the word limit set in the assessment brief. Students are
+required to enter an accurate word count on their assessment cover sheet.
+127. For University awards, when a written assessment is marked, the excessive use of words beyond
+the stated word limit will result in a lower mark being awarded for the piece of work, in line with
+the university’s Penalties for Exceeding Assessment Size Limits Policy. The module descriptor for a
+module which is graded on a pass/fail basis must specify whether submission of a written
+assignment exceeding the word limit results in failure in the module.
+[QA 87 – Penalties for Exceeding Assessment Size Limits]
+Re-submission of Assessments
+128. Students on programmes of study leading to an Arden University award who fail an assessment and
+have to resit will normally be required to rework the same assessment task, unless:
+• The outcome of an assessment misconduct investigation is that a new assessment task should
+be taken.
+• They have had extenuating circumstances upheld but have not submitted at the first
+resubmission opportunity given. Any subsequent extenuating circumstances claims approved
+for the same assessment will normally require a new assessment task to be taken.
+• The original assessment was an exam or time constrained assessment.
+Students are permitted to re-work the same submission on one occasion only. Students who refer
+a standard assessment twice and are granted a retake at the discretion of the Progression and
+Awards Board, will be required to re-engage with the module and submit a new piece of work with
+substantially different content.
+Assessment Integrity and Misconduct
+129. All assessments submitted by students must be the student’s own original work. Assessment
+Misconduct is any action or attempted action that may result in creating an unfair academic
+advantage for oneself or an unfair academic advantage or disadvantage for any other member or
+members of the academic community.
+Arden University Regulatory Framework v9 December 2024
+Page 24 of 36
+
+130. An assessment misconduct offence may be committed in relation to work undertaken for any
+module and any assessment method.
+131. Details relating to academic integrity and the process for handling suspected cases of assessment
+misconduct are set out in the Academic Integrity and Misconduct protocol. Students will be advised
+fully on the rules governing assessment conduct and also given training in referencing and how to
+avoid plagiarism.
+[Quality Assurance Document QA 23 – Academic Integrity and Misconduct].
+Assessment of Students with Special Educational Needs (SEN)
+132. Students with special educational needs may request special arrangements in examinations or
+assessments, in writing, including documentary evidence where appropriate. The Student Affairs
+Committee will consider all such requests and may approve requests on behalf of the Academic
+Board. The Student Experience team’s specialist advisors on SEN will consider all applications in
+advance of the committee meeting and make detailed recommendations to the Student Affairs
+Committee.
+133. Requests for special arrangements without precedent may be referred to the Student Affairs
+Committee for review or escalated to the Academic Board if they require a policy decision to be
+made.
+Marking
+134. All submitted assignments will be marked in accordance with the relevant assessment criteria, and
+feedback and marks/grades will be returned to students normally within 20 working days of
+submission. Where marks have not been confirmed by the Subject Assessment Board, the feedback
+will clearly indicate that marks are provisional or unconfirmed.
+135. Where possible, assessments will normally be marked anonymously so that markers will not be
+aware of a student’s identity at the time of marking. Full anonymity may not be possible in all
+assessment types, for example presentations, practical projects or dissertations. Anonymity may be
+lifted where there are suspicions about the authenticity of an assessment and further investigation
+is required.
+136. Feedback to students will be provided in prescribed ways in accordance with the principles set out
+in the Learning, Teaching and Assessment Strategy. Feedback will give details as to why marks have
+been awarded and/or why the student has failed to meet the requirements for a particular grade.
+Feedback should be detailed and formative.
+Internal Moderation and Second Marking
+137. Internal moderation will be undertaken in accordance with Quality Assurance Document QA 21
+Policy on Internal and External Moderation
+[Quality Assurance Document QA 21 Policy on Internal and External Moderation
+External Examination
+Arden University Regulatory Framework v9 December 2024
+Page 25 of 36
+
+138. The duties and responsibilities of External Examiners are set out in Quality Assurance Document
+QA 37 – External Examiner Handbook and are designed to meet the expectations and associated
+indicators set out in the QAA Quality Code for Higher Education.
+[Quality Assurance Document QA 37 – External Examiner Handbook]
+139. Responsibility for the appointment of External Examiners rests with the Quality and Standards
+Committee.
+140. External Examiners will be appointed for any part of a programme of study which contributes
+directly to the classification of an award.
+141. Suitably qualified External Examiners will be nominated by the Programme Leader and
+appointment will be subject to scrutiny and approval by the Quality and Standards Committee.
+External Examiner appointments are reported to Academic Board, which will also receive an
+annual review of External Examiner appointments, engagement and effectiveness. The criteria for
+appointment and appointment procedures are set out in:
+[Quality Assurance Document QA 43 – Nomination and Appointment of External Examiners]
+142. External Examiners will be independent of the University and, where applicable, any validating
+university or partner.
+143. The normal period of tenure for an External Examiner will be four years, with the possibility of
+reappointment for a further year to ensure continuity.
+144. All External Examiners will be appropriately briefed, trained and inducted in line with:
+[Quality Assurance Document QA 37 – External Examiner Handbook]
+145. All External Examiners will be required to submit reports after each assessment period, plus an
+overarching annual report, in accordance with the approved template.
+[Quality Assurance Document QA 44 – External Examiner Report Pro Forma]
+146. The University adheres to the QAA UK Quality Code.
+Subject Assessment Board
+147. Decisions on all module level assessment outcomes are made by a formally constituted Subject
+Assessment Board established by the Academic Board, attended by one or more External Examiners
+and reporting to the relevant Progression and Award Board.
+148. The constitution and terms of reference of Subject Assessment Boards are approved by the
+Academic Board.
+Progression and Award Boards
+149. Decisions on student progression between levels of a programme are made by a formally
+constituted Progression and Award Board, which will receive ratified module assessment results
+from one or more Subject Assessment Boards of Examiners. Decisions on the conferment of awards
+are made by Academic Board on the recommendation of a formally constituted Progression and
+Award Board established by the Academic Board.
+Arden University Regulatory Framework v9 December 2024
+Page 26 of 36
+
+150. The constitution and terms of reference of Progression and Award Boards are set out in the
+Academic Committee Structure document.
+[Quality Assurance Document QA 42 – Academic Committee Structure]
+Appeals
+151. Students may appeal in cases where they believe that there has been a material fault in the
+assessment process. Appeals against academic judgment cannot be accepted. The academic
+appeals process is given in Quality Assurance Document QA 24 – Academic Appeals Process.
+[Quality Assurance Document QA 24 – Academic Appeals Process]
+PROGRESSION DECISIONS
+Assessment Failure and Referral
+152. Students who do not achieve a pass mark in one or more module assessments at their first attempt
+will be referred in the(se) module(s) and will have one opportunity to resit the required element, or
+component of the assessment. Such resits must normally be completed at the next study block, or
+within two study blocks for major projects and dissertations.
+153. The University may require that the form of assessment for retake is different from the original
+form of assessment e.g. where minor modifications are made to the assessment. In such cases this
+will be formally communicated to students.
+154. The pass mark for the referral attempt is the same as the pass mark for the initial attempt. The
+maximum module mark achievable from referrals at levels 3-6 is 40% , 50% for level 7 modules or
+the bare minimum pass mark for the module, whichever is the higher; the maximum module grade
+achievable is a pass.
+155. If the mark/grade achieved at referral is below that achieved previously then the earlier
+mark/grade will be considered by the Subject Assessment Board.
+156. Wherever possible, the University will provide referral opportunities in modules which are no
+longer current but cannot guarantee this as a right. The Subject Assessment Board must make such
+special arrangements as it deems appropriate in cases where it is not practicable for students to be
+referred in the same module or module component.
+157. Where a student fails to present him/herself for any piece of formal assessment or to submit a
+piece of coursework by the required date, then the Subject Assessment Board will apply a 0% (fail)
+grade to that piece of assessment, subject to the processes described in the Submission Deferral
+and Extension, and Extenuating Circumstances in Assessment sections above.
+158. Students who fail a resit in a taught module may, at the discretion of the Progression and Award
+Board, retake the module on one occasion only. A retake allows the student two further attempts,
+both of which will be capped. Module retakes will require re-enrolment and re-engagement with
+the module and, for full-time students, may be either via classroom sessions or online as
+determined by the programme team. (Note that retakes may require payment of the normal
+module fee, see terms and conditions for full details).
+Arden University Regulatory Framework v9 December 2024
+Page 27 of 36
+
+159. A student who is referred in the dissertation/final project element of a programme may resit on
+one occasion only and will not be permitted to retake the module.
+160. In exceptional circumstances, at the discretion of the Progression and Awards Board, a student may
+be granted an exceptional second resit on a retake module (overall fifth attempt) or a dissertation
+module (overall third attempt) to redeem failure.
+Progression, Level Completion and Withdrawal
+161. The progress of each student will be considered by the Progression and Award Board at the end of
+each academic year or at the point the student reaches the end of a level. Decisions on awards and
+withdrawal will be considered at the point the student becomes eligible.
+162. The formal decisions available to the Progression and Awards Board are shown in the table below.
+Progression Decision Description
+Recommend conferment of target award Student has satisfied all requirements for the
+award that they registered to study.
+Recommend conferment of exit award Student has not completed intended programme
+for whatever reason, including:
+• Voluntary withdrawal, e.g., for personal
+reasons.
+• Academic failure.
+• Preclusion from the award for disciplinary
+or other reasons.
+Progress Student has passed all modules (includes any
+compensated modules) in current year of study
+and may proceed to next year of study.
+Progress Trailing credit Student has passed minimum number of modules
+to progress and may continue into next level of
+study trailing credit.
+Cannot progress - repeat full level of study Student has not satisfied progression criteria for
+the year of study. All modules on the level to be
+retaken.
+Cannot progress - repeat partial level of study at Student has not satisfied progression criteria for
+part-time rate the year of study but has achieved credit of
+between 40-60 credits.
+Withdraw Student has exceeded number of attempts in
+modules and has no further opportunity available
+for retake.
+Student has reached maximum period of
+registration and can no longer continue on
+programme.
+Student has not met minimum expectations for
+engagement as set out within the Attendance and
+Engagement Policy.
+Arden University Regulatory Framework v9 December 2024
+Page 28 of 36
+
+Student has requested to withdraw from
+programme voluntarily.
+Recommendation from withdrawal panel due to
+financial issues.
+Reinstatement Following successful appeal against decision of
+PAB.
+Exclude Student withdrawn from programme due to
+disciplinary or academic misconduct.
+Decision deferred Decision cannot be made (due to missing data or
+pending outcome of assessment misconduct or
+disciplinary proceedings).
+163. Students may not progress to the next level of study carrying credit in more than 40 credits,
+including any modules deferred due to extenuating circumstances. Retakes for trailed modules
+must be retaken in the next level of study and may not be trailed into subsequent levels. Distance
+Learning students will be required to open and access retake modules before attempting modules
+at the next level.
+164. Where a student progresses to the next level of study before having received the confirmed results
+from the previous module, this progression is deemed to be provisional until confirmed by the
+Progression and Award Board. If the Progression and Award Board determines that a student’s
+course has been terminated, the student will be required to cease studying with immediate effect.
+If the Progression and Award Board determines that a student may not progress to the next stage
+of the course, the stage on which a student is enrolled, and any associated fees must be amended
+with immediate effect.
+165. Students on full-time programmes of more than one year’s duration, who fail more than 40 credits
+at first resit may, at the discretion of the Progression and Award Board, be permitted to re-enrol
+part-time and retake the failed modules with attendance.
+166. Students on full-time programmes of more than one year’s duration, may in exceptional
+circumstances, at the discretion of the Progression and Awards Board, be permitted to repeat a full
+year of study. In such cases, students will retake all modules within the level and will be capped at
+the pass mark only for the previously failed modules.
+167. Students on undergraduate programmes may not formally submit their dissertation or final project
+until they have attempted all taught modules at Level 6.
+168. Students on postgraduate programmes may not formally submit their final research project until
+they have attempted all taught modules at Level 7.
+169. Where a student has not achieved a pass mark following the maximum number of referrals or re-
+takes available and is not eligible for compensation then the student cannot proceed on the
+programme unless it is possible for an alternative module to be studied. Such students will be
+withdrawn and awarded any exit awards for which they are eligible, for example a pass degree or
+postgraduate certificate or diploma.
+170. The Progression and Award Board may withdraw a student where it agrees in its academic
+judgement that a student has not demonstrated sufficient achievement or engagement to be
+offered a retake opportunity.
+Arden University Regulatory Framework v9 December 2024
+Page 29 of 36
+
+171. The Progression and Award Board may withdraw a student who has failed to re-enrol or whose
+progress through the programme will not allow completion within the maximum study period for
+the programme.
+Compensation: Undergraduate Programmes
+172. Credits are awarded for those modules in which a mark of at least 40%, or a pass grade, has been
+achieved. Additionally, credits may be awarded by compensation.
+173. Failure within a level may be compensated as follows:
+• Compensation applies to all undergraduate programmes except those programmes containing
+fewer than 120 credits.
+• No more than 20 credits may be compensated per level.
+• Compensation may not be applied on dissertations and major projects.
+• Compensation cannot be awarded on a level where module exemptions have been applied.
+• Compensation for a failed module is considered only if all the following criteria have been
+satisfied:
+o The mean grade (including any failed modules) must normally not be less than 45%;
+o The module mark where compensation is requested must normally not be less than 30%;
+o The student has attempted all modules in the level or all elements except the
+dissertation/major project.
+• Where compensation is awarded, the mark is not changed.
+• A student may opt to take reassessment instead of compensation. If a student fails the
+reassessment, compensation is applied using the original mark or the reassessment mark,
+whichever is the higher.
+• Modules graded on a pass/fail basis will be excluded when calculating the mean grade for the
+purpose of compensation.
+• Students will normally be compensated at the point they become eligible.
+Compensation: Postgraduate Programmes
+174. Credits are awarded for those modules in which a mark of at least 50%, or a pass grade, has been
+achieved. Additionally, credits may be awarded by compensation at level 7.
+175. Failure may be compensated as follows:
+• Compensation applies to all postgraduate programmes, except those programmes
+containing fewer than 120 credits.
+• No more than 20 credits may be compensated.
+Arden University Regulatory Framework v9 December 2024
+Page 30 of 36
+
+• Compensation may not be applied on postgraduate dissertations and major projects.
+• Compensation cannot be awarded on a level where module exemptions have been applied.
+• Compensation for a failed module is considered only if all the following criteria have been
+satisfied:
+o The mean grade (including any failed modules) must normally not be less than 55%;
+o The module mark where compensation is requested must normally not be less than 40%;
+o The qualifying mark (a pre-determined minimum grade which will be specified in the
+module descriptor and is normally 40%) has been achieved in all components of
+assessment for the module(s) for which compensation is being considered.
+o The student has attempted all modules except any dissertation or major project.
+• Where compensation is awarded, the mark is not changed.
+• A student may opt to take reassessment instead of compensation by notifying Registry
+within 7 days of being notified of their results. If a student fails the reassessment,
+compensation is applied using the original mark or the reassessment mark, whichever is the
+higher.
+• Modules graded on a pass/fail basis will be excluded when calculating the mean grade for
+the purpose of compensation.
+• Students will normally be compensated at the point they become eligible.
+CONFERMENT OF AWARDS
+176. The final award is achieved when a student has gained the number of credits required. An award
+classification will be calculated as described below. Where a student exceeds the credits required
+for a level, the highest marks of any option modules will be taken. Where RPL is awarded, the
+award mark will be based only on modules actually completed.
+A. Pass Awards
+177. All undergraduate awards comprising 120 credits or less, and all exit (i.e. not target) awards are
+pass awards.
+B. Classification for Degree with Honours
+178. The minimum credit requirements for each programme are specified in the Programme
+Specification.
+179. The base class of degree will be determined in accordance with the Full Honours classification
+scheme, according to the established percentage band equivalents:
+<35% = fail
+35-39 = pass
+40 - 49% = third class
+50 - 59% = lower second class
+60 - 69% = upper second class
+Arden University Regulatory Framework v9 December 2024
+Page 31 of 36
+
+>70% = first class
+180. In calculating base class, account will be taken of the credit value of each module mark. The
+classification will be based on a weighted arithmetic mean of the highest graded 180 credits of
+which minimum 100 are at Level 6 and the remainder at Level 5. All major projects must be
+included in the calculation.
+181. Where a student’s classification falls within two percentage points of a classification boundary
+(before rounding is applied), the classification banding will be uplifted if more than 50% of the
+marks included in the classification calculation fall within the higher classification band.
+182. The classification of final year top-up degrees will be calculated based on a weighted arithmetic
+mean of the highest graded 100 credits achieved at Level 6. All major projects (where applicable)
+must be included in the calculation.
+183. The weighted arithmetic mean used to calculate the classification will be rounded to the nearest
+integer.
+184. Students who have failed to reach the standard for the final award may be awarded an exit award
+where this is specified in the Programme Specification.
+185. Students who are granted module exemptions through Recognition of Prior Learning will only be
+eligible for an exit award if at least 50% of the credits required for that exit award are achieved
+through Arden University.
+C. Pass, Merit and Distinction awards
+186. All target awards not covered by A. Unclassified Awards or B. Award and Classification for Degree
+with Honours above will be awarded a classification of pass, merit or distinction as follows.
+For Postgraduate Awards, the base class for an award will be determined on the following grade
+boundaries:
+• 50-59 = Pass
+• 60-69 = Merit
+• 70 and above = Distinction
+For Undergraduate Awards, the base class for an award will be determined on the following grade
+boundaries:
+• 40-59 = Pass
+• 60-69 = Merit
+• 70 and above = Distinction
+The classification will be calculated based on the weighted arithmetic mean of all credits excluding the
+lowest graded 20 credits unless students have been granted module exemptions though RPL.
+Where a student’s classification falls within two percentage points of a classification boundary (before
+rounding is applied), the classification banding will be uplifted if more than 50% of the marks included
+in the classification calculation fall within the higher classification band.
+Arden University Regulatory Framework v9 December 2024
+Page 32 of 36
+
+187. In cases where students are granted exemptions through RPL, all Arden University credit will be
+used in the classification calculation, including the lowest graded 20 credits.
+188. Students that have RPL exemptions in more than 1/3 of credits, then they will not be entitled to a
+merit or distinction.
+D. Aegrotat and Posthumous awards
+189. Where there is insufficient evidence to determine the recommendation of an award, but the
+Progression and Award Board is nevertheless satisfied that the student would have qualified for
+the award for which they were a candidate had it not been for illness or other valid cause, an
+Aegrotat award may be recommended. Aegrotat awards are not classified.
+190. Any award may be conferred posthumously and accepted on the student’s behalf by a parent,
+spouse or other appropriate individual. The normal conditions of the award must be satisfied, and
+such posthumous awards may be classified.
+E. Rescinding Awards
+191. Awards may be rescinded under the following circumstances:
+• Administrative errors resulting in incorrect awards being conferred.
+• Errors in the assessment process which come to light after awards have been conferred.
+• Proven cases of academic misconduct which come to light after awards have been conferred.
+In the rare event that the need to rescind an award arises, the Academic Registrar on behalf of the
+Academic Board will provide details the case to the Chief Executive Officer and Vice-Chancellor, and
+where appropriate, make the necessary arrangements for a revised or alternative award to be conferred.
+STUDENTS WITH SPECIAL EDUCATIONAL NEEDS
+192. The university is fully committed to providing equal opportunities to all its staff and students.
+Where it is made aware of any special needs of students or intending students, then the university
+will endeavour to ensure that such reasonable needs are met in ways which do not compromise the
+standards of awards. The university’s Equity, Diversity and Inclusion Policy is set out in the following
+document:
+[Quality Assurance Document QA 25 – Equity, Diversity and Inclusion Policy]
+VALIDATION AND PROGRAMME APPROVAL
+193. All proposed new programmes of study and proposed major modifications to existing programmes,
+whether they lead to an award of the University or of an external awarding body, or to the award of
+Arden University Regulatory Framework v9 December 2024
+Page 33 of 36
+
+credit in recognition of successful study, are required to undergo an academic approval process
+termed validation. The validation process is set out in the Validation Handbook. Before they come
+to academic validation, proposed new programmes and certain types of major modifications to
+existing programmes must have received permission to proceed from the University’s Portfolio
+Management Group. Only when a programme has been through a successful validation and
+satisfied all conditions for academic approval will it be allowed to accept applications and
+subsequently enrol students.
+[Validation Handbook]
+194. The broad criteria against which academic proposals will be judged comprise the following: they
+will be applied to all proposed new programmes and as appropriate to proposed modifications to
+existing programmes, in the context of relevant institutional strategies, plans, policies and
+procedures:
+• Validity of the proposal, in terms of its academic rationale and intended learning outcomes, for
+the purposes which it is intended to serve.
+• Curriculum content embodying coherence, balance and progression and taking account of
+relevant subject and qualification benchmark statements, professional and/or accrediting body
+requirements, the QAA Framework for Higher Education Qualifications and the University’s
+current strategic aims and policies.
+• Effective learning and teaching strategies and methods which match the curriculum content,
+intended learning outcomes and students’ intake profile.
+• Sound assessment strategies and methods which effectively test student achievement of the
+intended learning outcomes to the appropriate standards, whilst affording opportunities for
+formative feedback to guide students’ learning.
+• Appropriate criteria for entry, set in the context of an admissions policy reflecting the
+University’s policy on widening access and participation.
+• Academic and pastoral support strategies and mechanisms which are matched to the likely
+needs of the intended student profile and to the nature of the programme.
+• Programme management and organisation arrangements which meet the university’s
+requirements and facilitate student participation.
+• Human and physical resources of appropriate quality and quantity and which are subject to
+considered development and renewal over time.
+• Conformance of the curriculum with relevant statutory requirements and university policies in
+relation to, for example, accessibility to students with special educational needs and
+disabilities, health and safety imperatives, equal opportunities issues.
+• Quality assurance procedures conforming to the university’s framework, and which are
+tailored to the programme and its students so as to provide effective means of monitoring,
+review and enhancement of academic standards and the quality of learning opportunities.
+Arden University Regulatory Framework v9 December 2024
+Page 34 of 36
+
+195. For apprenticeship programmes, the programme validation process must ensure that there are
+appropriate arrangements in place for supporting the apprentice in the workplace, including
+arrangements for appointing, training and supporting workplace mentors.
+196. Where the proposed programme involves collaboration with a partner organisation, approval will
+be undertaken in accordance with the relevant partner approval procedures.
+[QA 86 Franchise Approval Monitoring and Management Procedures]
+[QA 95 Dual Award Approval Monitoring and Management Procedure]
+[QA79 Partner Validation: Approval, Monitoring and Management Procedure]
+ACADEMIC GOVERNANCE, MONITORING AND REVIEW
+197. Under the terms of the Articles of Association, Academic Board is the university’s academic
+authority responsible for safeguarding the standards of awards. A Memorandum of Understanding
+between the Board of Directors and the Academic Board sets out the relative roles and remits of
+each body and makes Academic Board sovereign in relation to the award of degrees and other
+academic decisions.
+198. The Academic Board has established a number of sub-committees responsible for specific issues
+related to academic development and standards, quality assurance and enhancement. The terms
+of reference and reporting structure of such committees is set out in:
+[Quality Assurance Document QA 42 – Academic Committee Structure]
+Module Evaluation
+199. There are five ways in which module evaluation occurs.
+a. On the completion of each module, students will be asked to complete a Module Feedback
+Questionnaire. This will measure views on the material provided; academic and other support;
+management; assessment; and feedback. Where issues are raised these will be discussed with the
+lecturers concerned. The questionnaire is anonymous, so individual responses are not possible.
+[Quality Assurance Document QA 33– Module Feedback Questionnaire]
+b. At the Programme Committee, students will have the opportunity to submit comments for
+discussion.
+c. Module Leaders are also required to complete an evaluation of their module. The aim of this is to
+identify any problems which they might have had and any suggestions for change and action
+points.
+d. The Programme Committee will, as part of its deliberations, consider student progression on the
+module. In the event of any significant variations the Chair will ask for a report to be prepared.
+e. The external examiner will make a report on each module which is considered at the Subject
+Assessment Board with actions feeding into Programme Committees and Annual Rolling Action
+Plans and Annual Monitoring.
+Programme Evaluation/Annual Monitoring
+Arden University Regulatory Framework v9 December 2024
+Page 35 of 36
+
+200. The main purpose of annual monitoring is to ensure that programmes have been delivered in
+accordance with aspirations and guidelines as specified within the course documentation and
+information and guidance given to students. It is the opportunity to reflect upon the previous year’s
+operation, devise and implement the necessary action to address any identified weaknesses and to
+further embed and spread more widely any identified good practice.
+201. The procedures are designed to facilitate the accumulation of evidence to help demonstrate that
+the relevant parties have engaged with the process in an appropriate way. The various reports
+generated through annual monitoring will be made available online to all students and lecturers
+and will be discussed at the relevant Programme Committee and Academic Board. A report is
+produced annually for each course encompassing information as follows:
+• Student progression, failure, withdrawal and award statistics.
+• Module Evaluation based on student, Module Leader and External Examiner feedback.
+• Actions from:
+o Programme Committees.
+o Subject Assessment/Progression and Awards Boards.
+o External Examiner Reports.
+o Student group feedback.
+o Module Leader Feedback.
+• Comments from industrial advisors and accreditation bodies as appropriate.
+• Proposed course modifications and academic approval process.
+• Resource planning for next academic year.
+• Summary report from Programme Lead.
+[Quality Assurance Document QA 34– Module Leader Report]
+[Quality Assurance Document QA 36 – Annual Monitoring and Review Proforma]
+202. All programmes will be reviewed every 5 years against the original validation requirements as
+specified in the validation handbook.
+Arden University Regulatory Framework v9 December 2024
+Page 36 of 36

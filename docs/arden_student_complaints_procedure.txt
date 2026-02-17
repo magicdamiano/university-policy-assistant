@@ -1,0 +1,45 @@
+Document: Arden University Student Complaints Procedure
+Institution: Arden University
+Document Type: Complaints and Appeals Policy
+
+SECTION: Scope of the Complaints Procedure
+This procedure applies to complaints arising from a student’s educational experience,
+other than disputes relating to assessment and examinations. Complaints may be
+raised in respect of academic and administrative support or other services
+provided by Arden University, as well as complaints relating to facilities,
+learning resources, alleged harassment by staff, or alleged discrimination.:contentReference[oaicite:0]{index=0}
+
+SECTION: What the Complaints Procedure Does Not Cover
+The procedure does NOT apply to:
+- Appeals against academic judgment of examiners
+- Disciplinary matters, which are dealt with separately
+In such cases, separate procedures exist.:contentReference[oaicite:1]{index=1}
+
+SECTION: Principles and Commitment
+Arden University commits to:
+- Treat complaints seriously and respond to students’ needs
+- Provide clear information and support
+- Ensure complaints are dealt with confidentially
+- Ensure responses are timely and remain impartial
+- Ensure complainants are not disadvantaged by raising a complaint:contentReference[oaicite:2]{index=2}
+
+SECTION: Early Resolution at Local Stage
+Whenever possible, complaints should be resolved informally close to their
+origin without formality. This may involve speaking with staff such as a lecturer
+or Student Support team. Complaints at this stage can be raised face to face,
+by telephone, in writing, or by email.:contentReference[oaicite:3]{index=3}
+
+SECTION: Formal Complaint Procedure
+If informal resolution is not possible or satisfies the student, they should refer
+their complaint to the formal complaint procedure. At this stage, the University
+will consider the complaint in more detail, investigate relevant information,
+and provide a formal written response.:contentReference[oaicite:4]{index=4}
+
+SECTION: Suspension or Termination of Complaints
+If a complaint overlaps with other University regulations or policies, advice
+should be sought and the progress of the complaint may be suspended. In
+exceptional cases, where a complaint is deemed unacceptable, disruptive,
+vexatious, or malicious, the University may suspend or terminate the complaint
+process and may invoke disciplinary procedures.:contentReference[oaicite:5]{index=5}
+
+END OF DOCUMENT

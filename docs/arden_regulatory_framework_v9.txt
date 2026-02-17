@@ -1,0 +1,37 @@
+Document: Arden University Regulatory Framework v9
+Institution: Arden University
+Document Type: Academic Regulations
+
+SECTION: Introduction and Purpose
+This Regulatory Framework is used for the development and delivery of programmes of study
+leading to Arden University awards. It provides a framework for quality assurance, assessment
+regulations, progression rules and academic standards governing all programmes of study. :contentReference[oaicite:2]{index=2}
+
+SECTION: Regulatory Framework Governance
+The University operates its programmes and awards its degrees, diplomas and certificates
+in accordance with this Regulatory Framework and associated Quality Assurance documents.
+The Academic Board has responsibility for oversight of this framework. :contentReference[oaicite:3]{index=3}
+
+SECTION: Assessment Regulations Overview
+The Regulatory Framework includes assessment rules including conduct of assessments,
+submission requirements, deferral and extension provisions, and procedures for examinations
+which apply to all academic programmes. :contentReference[oaicite:4]{index=4}
+
+SECTION: Progression and Completion Rules
+Progression decisions, level completion and withdrawal regulations define the outcomes
+that may be applied following assessment results and the completion of credits at a given level. :contentReference[oaicite:5]{index=5}
+
+SECTION: Conduct of Assessment
+The Framework clarifies rules for conducting assessments, including time-constrained
+assessments, multiple choice questions (MCQs), examination conduct, and procedures for
+submission, deferral and extension of assessed work. :contentReference[oaicite:6]{index=6}
+
+SECTION: Award Classification
+Regulations describe how awards such as bachelors’ and masters’ degrees are classified,
+including calculation of credit and recognition of prior learning. :contentReference[oaicite:7]{index=7}
+
+SECTION: Definitions and Interpretation
+The document includes definitions of terms used in the Regulatory Framework to
+ensure consistent interpretation across all regulatory processes. :contentReference[oaicite:8]{index=8}
+
+END OF DOCUMENT

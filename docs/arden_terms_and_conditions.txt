@@ -1,0 +1,24 @@
+Document: Arden University Terms and Conditions
+Institution: Arden University
+Document Type: Terms and Conditions
+
+SECTION: Relationship to Arden Policies
+If there is a conflict between these Terms and the Arden Policies, including
+regulations, procedures, and student terms, the Arden Policies shall prevail.
+
+SECTION: Data Protection and Privacy
+Personal data will be processed in accordance with Arden University’s Privacy
+Policy and in compliance with the UK General Data Protection Regulation and
+the Data Protection Act 2018.
+
+SECTION: Governing Law
+These Terms and Conditions and any contractual relationship with Arden
+University are governed exclusively by the laws of England and Wales and are
+subject to the jurisdiction of the English courts.
+
+SECTION: Enforcement of Terms
+A delay or failure by Arden University to enforce any provision of these Terms
+shall not constitute a waiver of its right to enforce that provision or any
+other provision at a later date.
+
+END OF DOCUMENT
