@@ -1,9 +1,5 @@
 venv/
 __pycache__/
 *.pyc
-*.pyo
-*.log
 .env
-conversation-*.txt
-memory.txt
-Modelfile
+.DS_Store

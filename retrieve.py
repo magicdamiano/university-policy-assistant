@@ -1,19 +1,26 @@
-from load_docs import load_documents
+import os
 
-DOCUMENTS = load_documents()
+DOCS_DIR = "docs"
 
-def normalize(text):
-    return text.lower()
+def retrieve(question, max_results=6):
+    question_lower = question.lower()
+    results = []
 
-def retrieve(question, top_k=5):
-    q_words = set(normalize(question).split())
-    scored = []
+    for filename in os.listdir(DOCS_DIR):
+        if not filename.endswith(".txt"):
+            continue
 
-    for d in DOCUMENTS:
-        text_words = set(normalize(d["text"]).split())
-        overlap = len(q_words & text_words)
-        if overlap > 0:
-            scored.append((overlap, d))
+        path = os.path.join(DOCS_DIR, filename)
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            for line in f:
+                clean = line.strip()
+                if len(clean) < 40:
+                    continue
 
-    scored.sort(key=lambda x: x[0], reverse=True)
-    return [d for _, d in scored[:top_k]]
+                if any(word in clean.lower() for word in question_lower.split()):
+                    results.append({
+                        "source": filename,
+                        "text": clean
+                    })
+
+    return results[:max_results]

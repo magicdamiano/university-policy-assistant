@@ -7,19 +7,23 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def index():
     answer = None
+    confidence = None
+    question = None
 
     if request.method == "POST":
         question = request.form.get("question", "").strip()
-        print("[app] question:", question)
+        sources = retrieve(question)
+        result = ask_agent(question, sources)
 
-        if question:
-            docs = retrieve(question)
-            print("[app] retrieved:", len(docs))
+        answer = result["answer"]
+        confidence = result["confidence"]
 
-            answer = ask_agent(question, docs)
-            print("[app] answer generated")
-
-    return render_template("index.html", answer=answer)
+    return render_template(
+        "index.html",
+        answer=answer,
+        confidence=confidence,
+        question=question
+    )
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8000, debug=False)
+    app.run(host="0.0.0.0", port=8000)

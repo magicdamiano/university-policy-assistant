@@ -1,0 +1,955 @@
+ARDEN UNIVERSITY QUALITY ASSURANCE DOCUMENT
+QA57 Safeguarding & Prevent Policy Statement
+Contents Page No.
+1. Introduction & Principles 2
+2. Policy Scope 2
+3. Definitions 3
+4. Safeguarding Roles & Responsibilities 5
+5. Raising a Concern 6
+6. Protocol 7
+7. Radicalisation 8
+8. Martyns Law 8
+9. Following a Concern 9
+10. Staff Training 10
+11. Safeguarding Students Under 18 11
+12. Anonymous Reports 11
+13. Malicious Reports 11
+14. Reports of allegations against members of the Arden University community 12
+15. Student Information 12
+16. Confidentiality 12
+17. Service Information 12
+18. External Speakers 14
+19. Staying Safe online 14
+20. Support for Welfare 14
+21. Online Monitoring 14
+22. Reporting & Review 14
+23. Links to Policy 15
+Appendix 1 – Safeguarding Flow Chart 16
+Appendix 2 – Safeguarding Referral Forms 17
+Appendix 3 – Roles & Responsibilities 18
+Appendix 4 – Staff Guidance 20
+Appendix 5 – Safeguarding Examples 22
+Appendix 6 – Risk Assessment Tool 24
+Appendix 7 – Recognising Abuse and Neglect 25
+QA 57 Safeguarding Policy September 2025 P a g e | 1
+
+1. Introduction and principles
+Arden University is committed to the safeguarding and promotion of the welfare of all its
+students and staff. To that end, we seek to ensure that our organisation, its activities,
+staffing, and procedures are carefully managed through rigorous application of
+safeguarding principles that reflect our statutory responsibilities and government
+guidance.
+We also aim to ensure that our approach to handling any issues of a
+safeguarding nature is in accordance with sector best practice.
+This policy should be read alongside the overarching safeguarding and safer recruitment
+policies and processes within Arden University, fully utilising Keeping Children Safe in
+Education 2025 which has informed this policy.
+All staff must read Part One: Safeguarding information for all staff and Annex B as a
+minimum. Keeping Children Safe in Education 2025, Part One and Annex B outlines
+abuse and safeguarding issues that we all need to be aware of.
+Annex B contains additional information about specific forms of abuse and safeguarding
+issues. Keeping Children Safe in Education 2025. The Safeguarding of staff, students
+and apprentices at Arden University is deemed to be the responsibility of all staff at
+Arden and Safeguarding along with the associated elements of Child Protection and the
+Prevent agenda are integral to all activities associated with Arden whether on or off site.
+Aspects included under the ’umbrella’ of Safeguarding and for which Arden has a
+responsibility in supporting all student and apprentices include:
+• Keeping staff, students and apprentices safe within and outside of training and
+working environments.
+• Staff, students and apprentices need to be aware of the safeguarding risks and
+threats that could cause them harm or injury.
+2. Scope
+This policy sets out Arden University’s approach to providing a safe environment in which
+to work, study and research. Informed by legislation, this document sets out the
+definitions, responsibilities, and procedures required to ensure the safeguarding of
+children and vulnerable adults with whom we may have contact.
+QA 57 Safeguarding Policy September 2025 P a g e | 2
+
+Our safeguarding policy and procedures seek to ensure that regardless of age, gender,
+religion or beliefs, ethnicity, disability, sexual orientation or socio-economic background,
+all students:
+• have a positive and enjoyable experience of their education at Arden University;
+• can study or take part in their studies in an environment where they are safe,
+listened to, respected, and valued;
+• are supported to challenge discrimination and promote the right to equal
+protection;
+• are protected from emotional and other forms of abuse whilst participating in:
+o lecturer-led or coach-led sessions, where in class or via our virtual learning
+environment (VLE);
+o organised online discussion forums on the VLE;
+o Arden University-led online networking groups (social media);
+o any extra-curricular activities based at an Arden University..
+o any apprenticeship workplace activities.
+2.3. Arden University must comply with a new condition of registration effective from August
+1st 2025 regarding Sexual Misconduct and Harassment. As part of that, we have created a
+single source of information in relation to Sexual Misconduct and Harassment where you can
+find:
+• Signposting to any updated Arden University policy;
+• the reporting form to report an alleged incident of Sexual Misconduct and/or
+Harassment;
+• information on the support on offer to students, staff and visitors of Arden University;
+and
+• new training available to staff and students, to raise awareness of how we are
+responding to the regulation and introducing new topics on consent and bystander
+awareness.
+To find out more, visit here which will be regularly updated and reviewed by the relevant
+Arden University teams. Please note, the reporting form found on this page is specifically for
+reporting cases of Sexual Misconduct and Harassment.
+Our safeguarding policy also seeks to ensure:
+• effective management of safeguarding and prevent (including Martyn’s law)
+procedures through support, training, and workplace training;
+• prompt response to any concerns raised in Arden University led or workplace
+activities;
+• confidential, detailed and accurate records of all safeguarding and prevent
+concerns are kept and securely stored;
+• ensure that all staff members in unsupervised contact with minors (physical or
+virtual) are subject to annual DBS checks, and that accurate records of these tests
+are maintained.
+QA 57 Safeguarding Policy September 2025 P a g e | 3
+
+Failure to comply with the safeguarding and prevent policy and procedures will be
+addressed without delay and may result in dismissal or exclusion from the organisation.
+3. Definitions
+3.1 A Minor
+A minor is defined as anyone who has not yet reached their eighteenth birthday.
+3.2 A Vulnerable Adult
+A vulnerable adult is someone aged eighteen or over who is, or may be, in need of
+additional support and/or community services due to age, illness or mental or physical
+disability, or who is, or may be, unable to take care of him/herself or unable to protect
+him/herself against significant harm or exploitation.
+3.3 A victim
+Someone who has been injured, who has suffered or who has been killed following the
+actions of someone or something else.
+3.4 A perpetrator
+Someone who carries out a harmful or illegal act.
+3.5 Abuse
+Abuse (physical, emotional, sexual or neglect) is a form of maltreatment of a child or
+vulnerable adult, caused by inflicting harm or by failing to act to prevent harm. See
+appendix 7 for examples and indicators of abuse, though this is not considered an
+exhaustive list.
+3.6 Prevent and Martyn’s law
+Prevent is the government’s national counter-terrorism strategy aimed at stopping
+people from being drawn into terrorism or extremism. It aims to reduce the risk of
+radicalisation and to ensure those at risk are given advice and support. Martyn’s law
+places a duty on owners and operators of public buildings; including education
+establishments, to increase their preparedness for the protection from a terrorist attack.
+3.7 Extremism
+Extremism is vocal or active opposition to fundamental British values including
+democracy, the rule of law, individual liberty and mutual respect and tolerance of
+different faiths and beliefs.
+3.8 Radicalisation
+Radicalisation refers to the process by which a person comes to support terrorism and
+forms of extremism leading to terrorism.
+3.9 Domestic Abuse
+Any incident or pattern of incidents of controlling, coercive or threatening behaviour,
+violence, or abuse between those aged 16 or over who are or have been intimate
+QA 57 Safeguarding Policy September 2025 P a g e | 4
+
+partners or family members regardless of gender or sexuality.
+3.10 Forced Marriage
+A forced marriage is where one or both people do not (or in cases of people with learning
+disabilities or reduced capacity, cannot) consent to the marriage as they are pressurised,
+or abuse is used, to force them to do so.
+3.11 Child-on-child abuse
+any form of physical, sexual and emotional and financial abuse, and coercive control,
+exercised between children and within children’s relationships, both intimate and non-
+intimate.
+3.12 Child exploitation
+Refers to the use of children for someone else’s advantage, gratification or profit often
+resulting in unjust, cruel and harmful treatment of the child.
+3.13 Child criminal exploitation
+Criminal exploitation is child abuse where children and young people are manipulated
+and coerced into committing crimes.
+3.14 Female genital mutilation
+Female genital mutilation (FGM) comprises all procedures that involve partial or total
+removal of the external female genitalia, or other injury to the female genital organs for
+non-medical reasons.
+3.15 Serious Violence
+Specific types of crime such as homicide, knife crime, and gun crime and areas of
+criminality where serious violence or its threat is inherent, such as in gangs and county
+lines drug dealing.
+3.16 What is Harassment?
+Harassment is unlawful under the Equality Act 2010 and Protection from Harassment Act
+1997.
+Harassment is any unwanted physical, verbal or non-verbal conduct relating to a protected
+characteristic that has the purpose or effect of violating a person’s dignity or creating an
+intimidating, hostile, degrading, humiliating or offensive environment for them. A single
+incident can amount to harassment.
+The protected characteristics are:
+• age;
+• disability;
+• gender reassignment;
+• marital or civil partner status;
+• pregnancy or maternity;
+• race;
+• colour;
+QA 57 Safeguarding Policy September 2025 P a g e | 5
+
+• nationality;
+• ethnic or national origin;
+• religion or belief; or
+• sex or sexual orientation.
+Harassment also includes treating someone less favorably because they have submitted or
+refused to submit to such behaviour in the past.
+Behaviour can amount to harassment even when that is not the intention and the victim of
+harassment need not be the victim of the behaviour. Harassment can be committed when
+anyone feels intimidated, threatened or experiences a hostile environment.
+Examples of harassment may include, but is not limited to:
+• jokes and remarks about a different ethnic group, if this creates an offensive
+environment.
+• racist, sexist, homophobic or ageist jokes, or derogatory or stereotypical remarks
+about a particular ethnic or religious group or gender;
+• outing or threatening to out someone as part of the LGBTQIA+ community;
+• offensive e-mails, text messages or social media content; or
+• mocking, mimicking or belittling a person’s identity or characteristics.
+3.17 What is Sexual Misconduct?
+Sexual misconduct relates to all unwanted conduct of a sexual nature.
+This includes, but is not limited to:
+• Sexual harassment (as defined by Section 26 (2) of the Equality Act 2010)
+• Unwanted conduct which creates an intimidating, hostile, degrading, humiliating or
+offensive environment (as defined by the Equality Act 2010)
+• Assault (as defined by the Sexual Offences Act 2003)
+• Rape (as defined by the Sexual Offences Act 2003)
+• Physical unwanted sexual advances (as set out by the Equality and Human Rights
+Commission: Sexual harassment and the law, 2017)
+• Intimidation, or promising resources or benefits in return for sexual favours (as set
+out by the Equality and Human Rights Commission: Sexual harassment and the law,
+2017)
+• Distributing private and personal explicit images or video footage of an individual
+without their consent (as defined by the Criminal Justice and Courts Act 2015).
+Sexual misconduct can be carried out through any medium, including face to face, over the
+telephone, in writing or online.
+4. Safeguarding roles and responsibilities
+The following roles ensure that the University will discharge its responsibilities
+effectively.
+QA 57 Safeguarding Policy September 2025 P a g e | 6
+
+A full list of the Safeguarding Leads can be found in appendix 3 and on the intranet
+under ‘academic area’.
+Principal Designated Safeguarding Officer (PDSO)
+The PDSO holds responsibility for the implementation of the Safeguarding Policy and
+procedures. Their role will ensure, through delegation that Arden is committed to uphold
+its duty to safeguard its staff and students. The Head of Student Success has overall
+responsibility for the strategic and operational implementation of safeguarding policy.
+Designated Safeguarding Officer
+Designated Safeguarding officers are to be contacted when concerns are deemed urgent,
+high risk and there is an immediate threat to the individual in question and/or their
+dependents. Designated Safeguarding Officers are to support with concerns that involve
+conversing with third party organisations.
+Designated Safeguarding Lead
+Designated safeguarding leads will provide support to low or medium risk concerns.
+Designated Safeguarding leads can be contacted if there is uncertainty around reporting
+concerns, but it is not intended that they will be contacted regarding emergency high risk
+concerns. If deemed necessary, designated safeguarding leads can re classify the level of
+risk reported.
+Prevent Lead
+In the event of any concern relating to Prevent, any student, staff member or other
+individual should email prevent@arden.ac.uk or contact Steve Clayton, Pro Vice-
+Chancellor (Effectiveness, Quality & Compliance) via email.
+The PVC (EQC) has overall responsibility for compliance with the Prevent Duty, to uphold
+the implementation of the enchased tier of the Protect Duty (Martyn’s law) and for
+operational coordination of Prevent procedures and for advising and supporting staff or
+students who raise concerns.
+Designated Safeguarding Persons have responsibility for operational coordination of
+safeguarding procedures and for advising and supporting staff who raise concerns.
+5. Raising a concern
+Safeguarding concerns must be raised when there is either disclosure of harm,
+exploitation, or abuse or where there is a risk of such. Arden does not expect staff or
+students to decide whether someone has been harmed or is at risk. However, the
+University do expect concerns to be raised as per this policy, so that action can be taken.
+Situations where concerns should be raised but are not limited to:
+• A child or vulnerable adult discloses that they have been subject to harm,
+exploitation, or abuse.
+• A student or staff member discloses information about their family member which
+suggests there is a risk of harm, exploitation, or abuse to a child or vulnerable
+QA 57 Safeguarding Policy September 2025 P a g e | 7
+
+adult.
+• There is a concern that a child or vulnerable adult is at risk of harm or
+manipulation.
+• Changes have been noticed regarding a child or vulnerable adults’ appearance
+which could suggest harm, exploitation, or abuse.
+• A student or staff member who has recently been arrested or convicted of a crime,
+whereby the nature of which could pose a risk to the individual or others or where
+the offense involves harm or risk to others, such as assault, harassment or sexual
+misconduct.
+5.1 Reporting Harassment or Sexual Misconduct
+Arden University must comply with a new condition of registration effective from August 1st
+2025 regarding Sexual Misconduct and Harassment. As part of that, we have created a
+single source of information in relation to Sexual Misconduct and Harassment including
+developing a reporting form for any allegations or incidents of Sexual Misconduct and/or
+Harassment. This reporting form can be found here, and can be completed anonymously or
+non-anonymously, for yourself or on behalf of another individual.
+This reporting form is handled with due sensitivity, confidentiality and reasonably by the
+relevant staff teams to investigate and/or offer support to anyone who has requested so.
+The form follows the below process.
+The reporting form is explicitly for harassment and sexual misconduct, and can be found
+here. The form takes an individual, whether staff, student or visitor, through a series of
+questions to ascertain the details of the alleged incident, including an opportunity to provide
+evidence or detailed information, and a series of optional questions to understand how best
+to investigate the report, including information about the individual raising the report. All
+data is handled appropriately and only relevant staff members who have been sufficiently
+trained will have access for investigation purposes or support, if requested.
+For further details on investigation and support related to the reporting mechanism for
+Sexual Misconduct and Harassment, please review the Bullying, Harassment & Sexual
+Misconduct Policy.
+6. Protocol
+Please see appendix 1 for a visual of the appropriate channel to report a safeguarding
+concern.
+QA 57 Safeguarding Policy September 2025 P a g e | 8
+
+Please see appendix 2 for links to appropriate safeguarding referral forms.
+Concerns about students
+For staff members raising concerns about a student, the appropriate Microsoft form can
+be found under the ‘Academic Area’ on the intranet, ilearn under ‘My Resources’ and the
+Safeguarding page on the Wellbeing Portal. These concerns will be monitored by named
+safeguarding personal within Student Support.
+For students raising concerns about other students, the appropriate Microsoft form can
+be found under the ‘My Resources’ section on ilearn and on the Wellbeing Portal under
+the safeguarding banner. These concerns will be monitored by named safeguarding
+personnel within Student Support.
+Concerns about staff members
+For staff members raising concerns about other staff members, the appropriate Microsoft
+form can be found under the ‘Academic Area’ on the intranet on the Safeguarding page
+of the Wellbeing Portal. These concerns will be monitored by People Services.
+For students raising concerns about an Arden staff member, the appropriate Microsoft
+form can be found on the Wellbeing Portal under the safeguarding banner. These
+concerns will be monitored by People Services
+Reported concerns should set out information relevant to the reason for raising the
+concern, such as (but are not limited to):
+• Name
+• STU number
+• Location where incident occurred
+• Date & time of incident
+• What time of harm was caused
+• Contact details of relevant individuals
+• Any actions that have been taken
+• Any involvement with external agencies
+Appendix 5 includes examples which will support awareness-raising in connection with
+recognising safeguarding concerns.
+Concerns where a child is at risk
+Where a child is suffering or is likely to suffer from harm, abuse or exploitation, it is
+important to refer them to their local authority children’s social care department (and
+the police as appropriate). This will ensure a contextual approach to address such harm.
+The following toolkit directs to the relevant local authority children’s social care contact
+number: https://www.gov.uk/report-child-abuse-to-local-council
+QA 57 Safeguarding Policy September 2025 P a g e | 9
+
+7. Dealing with Concerns about Radicalisation
+Arden’s safeguarding policy also extends to protecting children and vulnerable adults
+from involvement in groups who aim to radicalise them.
+The Counter Terrorism Act 2015 imposes a duty on ‘specified authorities’, Higher
+Education providers fall under this and therefore Arden University understands its duty of
+care to prevent people being drawn into terrorism. The University will:
+- Train staff on how to identify extremism and radicalisation
+- Be vigilant about the risks of radicalisation
+- Have in place policy and procedures to prevent extremism
+- Train staff on the implementation plans for the Protect Duty (Martyn’s law)
+Arden University believes that dealing with potential signs of radicalisation should be
+dealt with by utilising a safeguarding approach. This approach enables relevant services
+within and outside the University to identify an individual’s needs and vulnerabilities.
+If a member of staff is concerned that an individual may be becoming radicalised s/he
+can seek guidance from ACT https://actearly.uk/ and also email prevent@arden.ac.uk
+8. Martyn’s law
+In response to Martyn’s law and to prepare for the Protect Duty a risk assessment and
+security plan will be carried out in order to achieve a successful level of security
+preparedness in line with other regulatory regimes (including Fire and Health and Safety)
+9. Following a concern
+During office hours, safeguarding concerns are monitored daily by either Designated
+Safeguarding Officers or by People Services, dependent on the type of concern and the
+individual. Concerns about students and which are deemed to be either low or moderate
+risk will be dealt with Designated Safeguarding leads within Student Support. Details of
+actions taken can only be shared when a reported person has given consent. If further
+information is received after a concern is reported, this information should be forwarded
+to a Safeguarding Officer or Lead
+Designated Safeguarding Persons will assess any concern raised and determine what
+action, if any, should be taken. Actions may include:
+• Escalation of the issue to the Prevent Lead for consideration;
+Referral to social services, police or other relevant agencies, including when appropriate the
+Local Authority Designated Officer (LADO); Where the risk to life is felt to be immediate,
+they may request a welfare check through 999. If the student is in centre, we may request
+the Police or an Ambulance to attend there.
+QA 57 Safeguarding Policy September 2025 P a g e | 10
+
+• Where possible, obtain the consent of the person to involve an additional person
+to support them if deemed necessary by the Designated Safeguarding Lead, this
+may include their emergency contact or next of kin where known, except where
+the allegation regards this person. Arden University reserves the right to
+contact these people without consent where it is judged this is in the best
+interests of safeguarding the vulnerable person but will make all efforts to gain
+consent;
+• Referral to Wellbeing services for wellbeing/welfare support.
+• Referral for counselling or support via Togetherall & Spectrum Life Student
+Assistance Programme;
+• Referral to the HR Manager and relevant SMT Manager for any case involving an
+allegation against a member of staff.
+The Prevent Lead will assess any potential Prevent-related concern raised and determine
+what action, if any, should be taken. Actions may include:
+• Referral to social services, police or other relevant agencies, including the Channel
+programme;
+• Seeking further advice from the relevant Department for Education Regional
+Prevent Coordinator.
+• Designated Safeguarding Persons and the Prevent Lead will keep confidential case
+notes for all referrals.
+Arden University recognises that its student body is internationally based and that
+referrals to local services will not be feasible for students who are resident outside the
+UK. Nevertheless, it will seek to support its international students so far as possible
+through providing access to Togetherall for all students and through its agreement with
+the West Midlands Police to relay any prevent concerns internationally wherever feasible
+and appropriate.
+10. Training for staff
+All staff will undertake mandatory Safeguarding training as well as prevent training on
+an annual basis. Operational safeguarding members of staff will also receive Level 3
+safeguarding training (every 3 years) as well as prevent training.
+Arden University must comply with a new condition of registration effective from
+August 1st, 2025, regarding Sexual Misconduct and Harassment. As part of this, all
+Arden University staff members must complete specific training related to the new
+condition, as well as updated safeguarding training and the ability to access student
+training on the following topics: Bystander Intervention and Consent on Campus.
+QA 57 Safeguarding Policy September 2025 P a g e | 11
+
+11. Safeguarding students who are under the age of 18
+11.1 Students who are under the age of 18
+The University no longer recruits minors to academic programmes. The details below
+refer only to existing students who are still classed as minors.
+The University is not able to take on the usual rights, responsibilities, and authority
+which parents or guardians have in relation to a minor.
+The University will correspond directly with its students, not normally with parents or
+guardians, even where the student is under eighteen.
+Parents and guardians of Blended Learning students will need additionally to understand
+and give consent for students to:
+1. participate in any field trips and excursions; Risk assessments will be carried out
+before all field trips and excursions and participation in some activities may be
+limited for students who are minors.
+2. access unregulated internet services in an unsupervised environment. Students
+are expected to comply with the acceptable use provisions within the University’s
+terms and conditions.
+Arden University will collect emergency contact details for all students under the age of
+eighteen. If an emergency arises on University premises, for example, medical or
+criminal, and it is not possible for the University to contact the named individual within
+the timescale necessitated by the situation, then the University may be required to act
+on the student’s behalf. In such circumstances a senior member of the University will, on
+behalf of the student’s parent or guardian, give such consent to treatment as is in the
+best interests of the student.
+The Designated Safeguarding Persons will jointly maintain accurate records of all current
+students under the age of eighteen and alert module lecturers and student support
+coordinators accordingly at the start of each semester or delivery period.
+11.2 Children on Campus
+Children are defined as being between the ages of 0-18.
+Children are only permitted on Campus for short periods (i.e. when parents/guardians
+need to drop something off or raise a query) and must be accompanied by their parent
+or guardian at all times. Children should not be left on Campus unaccompanied.
+Students should notify the Campus Manager or appropriate nominee when attending
+Campus with children.
+Children are under no circumstances permitted to attend scheduled classes with their
+QA 57 Safeguarding Policy September 2025 P a g e | 12
+
+parent/guardian/appropriate adult.
+No child is permitted to remain on Arden University premises outside of normal
+campus opening hours.
+Arden University reserves the right to ask for any children on site to be removed if they
+are considered excessively noisy or disruptive.
+Please see related guidance in Section 9. of the Pregnancy, maternity and adoption
+policy concerning breastfeeding.
+12. Anonymous reports
+Anonymous concerns will be acted on due to the fact Arden understands that there may
+be reasons behind someone not feeling able to identify themselves. However, support
+may be limited dependent on the detail of information received. Please see related
+guidance in Whistleblowing Policy for Students.
+Arden University must comply with a new condition of registration effective from August
+1st 2025 regarding Sexual Misconduct and Harassment. As part of that, we have
+introduced a new reporting form explicitly for incidents and/or reports related to Sexual
+Misconduct and Harassment. As part of this, students, staff or visitors can choose to
+report incidents anonymously or non-anonymously. For further details, please visit the
+single source of information here or the Bullying, Harassment and Sexual Misconduct
+Policy at this link Arden University | Regulatory Framework
+13. Malicious reports
+Disciplinary action may be taken against an individual raising a concern that is deemed
+to be malicious, frivolous or in hope of seeking revenge.
+14. Reports of allegations against members of the Arden University community
+As mandated by statutory guidance, any concerns raised against a member of the
+University community which suggests a child or vulnerable adult is being harmed will be
+escalated to the Local Area Designated Officers (LADO). A LADO is an employee at the
+local authority who can give advice to employers and organisations and individual who
+have concerns about an adult who works with children and/ or vulnerable adults
+Allegations about a staff or students may be considered under Staff Disciplinary Policies
+or Student Disciplinary procedures.
+15. Student Information
+Students will be advised about University procedures about safeguarding and prevent
+through induction, Student Handbooks, the University’s terms and conditions (in relation
+QA 57 Safeguarding Policy September 2025 P a g e | 13
+
+to online monitoring and acceptable use policies) and publication of this policy.
+Students are further advised on the tolerant and respectful behaviour required of them
+via the Student Charter and Student Handbooks.
+16. Confidentiality and information sharing
+Staff should only disclose information or sensitive information about students with
+nominated safeguarding or prevent contacts. All staff must be aware that they have a
+professional duty to share information with other agencies in order to safeguard minors,
+adults and those at risk of radicalisation. However, information will be shared on a need-to-
+know basis only, as judged by the Designated Safeguarding Persons and the Prevent Lead.
+17. Service hours and out of hours support
+Safeguarding referrals are monitored during office hours: Monday to Friday 9am – 5pm.
+Outside standard business hours or during holidays:
+If you are concerned about the risk to a child/vulnerable adult outside business hours
+and expert advice is needed, you can contact the local Children’s Social Care or Adult
+Social Services. Or you can contact:
+• NSPCC Helpline 0808 800 5000 Mon- Fri 8am – 10pm or 9am – 6pm at the
+weekends
+• Domestic Abuse Helpline Tel 0808 2000 247, 24 hours a day. You must also report
+this via the safeguarding form.
+Details of other external agencies that can offer immediate support can be found on
+the Wellbeing Portal here: Help in a Crisis
+18. External speakers
+Any external speakers, whether contributing via the VLE or face to face at a Campus,
+must be approved in advance through completion and consideration of the checklist
+found in QA58 Approval of External Speakers. All requests must be submitted a
+minimum of two weeks before the event/date of speaking. External speakers must
+always be accompanied by a designated safeguarding lead/officer.
+19. Staying safe online
+Online learning and teaching offer flexible opportunities however, it is not without its
+challenges.
+The internet can be used to harass, bully, or intimidate, especially people in vulnerable
+groups. Staff members should report any incidents relating to this via safeguarding
+channels. If you become concerned about a student’s behaviour, wellbeing, or safety
+QA 57 Safeguarding Policy September 2025 P a g e | 14
+
+online, student support services should be contacted.
+Please refer to the Student Code of Conduct policy for guidance on appropriate
+behaviour, principles, standards, and moral expectations when studying online.
+Please also refer to the Acceptable Use Policy at this link Arden University | Regulatory
+Framework for further information.
+20. Support for welfare
+20.1 Fitness to Study
+Link to policy
+A Fitness to Study will be considered to addresses concerns that a student’s health is
+jeopardising their studies or the studies of others.
+20.2 Wellbeing services
+Where there are concerns about a student's welfare and/or their mental health, a
+student may be access support through Wellbeing services. Students can email or be
+referred via wellbeing@arden.ac.uk
+Link to the Wellbeing Services Student Portal - Home (sharepoint.com)
+21. Online Monitoring
+Arden University undertakes automated online monitoring of areas of its VLE that are not
+directly managed by staff, including direct messaging via its VLE and student blogs.
+Students are advised of this practice via the terms and conditions.
+Weekly reports of the automated monitoring process, identifying any terms that are
+linked to terrorism or extremism, are monitored by the Prevent Lead or nominee to
+determine whether there is any cause for concern.
+22. Reporting and Review
+The Academic Board will receive a report annually on the number and type of referrals
+made. Where no referrals are made, a nil report will not be required.
+The number of referrals made will be reported to the Students, Quality & Standards
+Committee at each meeting. Again, nil reports are not required.
+Safeguarding referrals are stored for as long as necessary for the purpose for which it
+was obtained.
+The safeguarding and prevent policy and associated procedures are reviewed at least
+every two years, or in the following circumstances:
+QA 57 Safeguarding Policy September 2025 P a g e | 15
+
+• changes in legislation and/or government and/ or regulatory guidance;
+• Following any other significant change or event.
+QA 57 Safeguarding Policy September 2025 P a g e | 16
+
+23. Links to policy
+Cause for concern Procedure
+Fitness to Study Policy
+Pregnancy, maternity & adoption Policy
+Student Code of Conduct
+Student Disciplinary procedure
+Whistleblowing policy for students
+Bullying, Harassment and Sexual Misconduct Policy Arden University |
+Regulatory Framework
+Acceptable Use Policy Arden University | Regulatory Framework
+Policy Name Safeguarding and Prevent Policy
+Statement
+Policy Reference QA57
+Approval Authority Academic Framework, Regulation and
+Policy Committee
+Last Approved September 2025
+Republished Nov 2025 with amended web
+links
+Responsible SMT Lead PVC Student Experience
+Responsible Department Student Experience
+Policy Contact Head of Student Success
+Review frequency Annual
+QA 57 Safeguarding Policy September 2025 P a g e | 17
+
+APPENDIX 1
+Safeguarding flowchart
+Student Safeguarding Referral Form
+Staff Safeguarding Referral Form
+QA 57 Safeguarding Policy September 2025 P a g e | 18
+
+APPENDIX 2
+Safeguarding referral forms
+Report a safeguarding concern about a student
+Report a safeguarding concern about a member of staff
+QA 57 Safeguarding Policy September 2025 P a g e | 19
+
+APPENDIX 3
+Safeguarding roles and responsibilities
+Principal Designated Safeguarding Officer
+- Debbie Groom - Head of Student Success –
+dgroom@arden.ac.uk.
+Prevent Lead
+Steve Clayton – Pro Vice Chancellor (Effectiveness, Quality & Compliance) -
+sclayton@arden.ac.uk
+Designated Safeguarding Officers (DSOs)
+- Beth McCluskey – Head of HR – bmccluskey@arden.ac.uk,
+- Basra Khan – Mental Health & Wellbeing Adviser - 07543 314695
+- Emily Ditton – Mental Health & Wellbeing Adviser
+- Jodie Comrie – Mental Health & Wellbeing Adviser
+- Hannah Martin - Mental Health & Wellbeing Adviser
+- Steph Petrou - Wellbeing Services Manager
+Neyazul Haque - Mental Health & Wellbeing Adviser
+(Tower Hill) Paul Guy - Mental Health & Wellbeing
+Adviser (Manchester)
+Bet Rosell Tinker - Mental Health & Wellbeing Adviser
+(Birmingham) Danielle Opara - Mental Health & Wellbeing
+Adviser (Holborn)
+Rob Schofield - Mental Health & Wellbeing Adviser (Leeds)
+Designated Safeguarding Leads (DSLs)
+Distance Learning Kim Roddis – Head of Development &
+Engagement
+Lauren Donnelly – Student Success Team
+Leader
+Helen Duff – Student Success Team
+Leader
+Birmingham Campus Sarah Boles – Lead Student Hub Advisor
+Holborn Campus Evelyn Gordon – Lead Student Hub Advisor
+Ealing Campus Zarmina Ahmed – Lead Student Hub Advisor
+Tower Hill Campus Tony Nkhoma - Lead Student Hub Advisor
+Leeds Campus To be confirmed.
+Manchester Campus Becky Appleton - Lead Student Hub Advisor
+Berlin Campus Sarah Bejkar – Lead Student Hub Advisor
+QA 57 Safeguarding Policy September 2025 P a g e | 20
+
+Apprentices Maxine Collison – Internal Quality Assurer
+Apprenticeships
+Helena O’Brien – Degree Apprenticeship
+Coach
+Asta Vegeleviciute – Degree
+Apprenticeship Coach
+People Services Beth McCluskey – Head of HR
+QA 57 Safeguarding Policy September 2025 P a g e | 21
+
+APPENDIX 4
+Staff Guidance
+Disclosures of Abuse:
+These may come in many forms and should all be taken seriously:
+• A vulnerable person may confide in you that they are being abused
+• Someone may report to you that someone else has confided in them that
+they are being abused or that they have a suspicion of abuse
+• Someone may display signs of abuse as listed above
+• The behaviour of, or a change in the behaviour of someone may suggest
+that they are being abused
+• A colleague may confide in you that they have abused a child/young
+person/ adult in a vulnerable situation
+• The behaviour of, or a change in the behaviour of a colleague, may
+suggest that they are abusing a child/young person/ adult in a vulnerable
+situation
+If a student discloses that they are being abused or provides any information suggesting
+that this is the case, staff should follow the guidance below.
+DO
+• Remain calm, accessible and receptive
+• Ensure you are meeting the student at an appropriate place (i.e., private)
+• Listen carefully without interrupting or asking leading questions
+• Communicate with the person in a way that is appropriate to their age,
+understanding and preference
+• Be aware of the non-verbal messages you are giving
+• Make it clear that you are taking them seriously.
+• Acknowledge their courage and reassure them that they are right to tell.
+• Reassure them that they should not feel guilty and say that you're sorry
+that this has happened to them.
+• Let them know that you are going to do everything you can to help them
+and what may happen as a result.
+• Make a note of what was said, using the person’s actual words wherever
+possible
+• Make note of your observation (signs of abuse, if any)
+• Complete safeguarding referral form (appendix 2) (if urgent contact a
+safeguarding officer immediately) and send to the appropriate member of
+the safeguarding team, or Designated Safeguarding Lead.
+QA 57 Safeguarding Policy September 2025 P a g e | 22
+
+DON’T
+• Judge the person
+• Investigate or seek to prove or disprove possible abuse Investigate,
+suggest or probe for information
+• Make promises about confidentiality or keeping ‘secrets’ some wording
+that may help is “I can’t promise to keep this to myself as I may need to
+seek more help for you”.
+• Jump to conclusions, be dismissive or react with shock, anger, horror etc.
+• Speculate or accuse anybody
+• Offer opinions about what is being said or the persons allegedly involved
+• Confront another person (adult or child/young person) allegedly involved
+• Forget to record what you have been told
+• Assume that someone else will take the necessary action
+• Fail to pass this information on to a safeguarding officer
+QA 57 Safeguarding Policy September 2025 P a g e | 23
+
+APPENDIX 5
+Safeguarding examples
+Example 1
+You are in a meeting with Ben when he tells you about Alex, his ex-partner. Alex has
+threatened to tell the Police that Ben is causing harm to the children they have
+together unless he gives Alex more money each week in child support. Ben is
+distressed as he is already in debt and fears he will not be allowed to see his children
+anymore and may be arrested.
+This is a concern that you should report. It is not for you to determine if Ben is
+physically harming his children, but he is being harmed by someone trying to
+manipulate him to gain more money. The financial abuse element would mean the
+Safeguarding Concern would have to be logged.
+Example 2
+Anne is a student that you are currently supporting; she began university by being
+reserved. You have noticed that lately Anne has been hanging around with new
+people, has started drinking and smoking. Anne is sometimes late for 9.00am lectures
+but never misses them completely.
+Anne’s behaviour may not be a safeguarding concern. It appears she is
+adjusting to being at university and has made new friends who might be having an
+influence on her. Unless Anne is being manipulated to drink, smoke or go out late,
+there may be no harm or risk of harm causing the change in Anne.
+Example 3
+Raheem has informed you that he may not be able to attend graduation because his
+family want him to go on holiday overseas as soon as he finishes his final exams.
+Raheem tells you that he is concerned that he is going to be forced to marry someone
+whilst he is on holiday. Two years ago, his older brother Hassan was taken on holiday
+after his exams finished and his family hid his passport from Hassan until he agreed to
+marry someone whilst overseas. Raheem is worried the same thing will happen to
+him: he has no plans to marry and does not want to go on the holiday.
+This is a concern that you should report. Raheem is at risk of harm.
+Example 4
+Dawn has been set an assignment to log her activities and thoughts for 2 weeks. Upon
+submission of the log, we can see that Dawn references to her belief that she is being
+watched and that she feels someone is tampering with her phone. Dawn also feels that
+the news has a hidden agenda as they report negative stories about her religion. Dawn
+expresses thoughts of frustration and anger about what she feels is
+happening.
+This is a concern that you should report. Although Dawn may be exploring politics
+in her surrounding environment, she may be at risk of radicalisation. It is not for you
+to determine if Dawn could be radicalised, but the apparent tendency to see a
+QA 57 Safeguarding Policy September 2025 P a g e | 24
+
+conspiracy as well as the feeling that her religion is being treated unfairly in the media
+may need to be explored.
+Example 5
+Chen is an international student in her first year but has missed a large number of
+lectures. She asks to speak to you as she has run out of money. Chen tells you that
+she started seeing an older man a few months ago and in exchange for him taking
+care of her and letting her live with him, he has access to her bank account and leaves
+her with a small amount of credit on her mobile phone. She has no money to get the
+bus in for lectures and has no money to buy food, relying on what her boyfriend
+provides.
+This is a concern that you should report. Chen is at high risk of harm and may
+also be at risk of being groomed.
+Example 6
+Don is a Political Science lecturer and has always encouraged in-class debates, asking
+students for their opinion on controversial subjects (such as hunting and abortion),
+and then asking them to argue for the opposition. Recently Don set up a lunchtime
+debate society but only allows students he has invited to attend. Alison was invited to
+a meeting and has come to you to express concerns about Don. She tells you that Don
+didn’t hold a debate but spent 20 minutes expressing his support for the English
+Defence League. Alison feels she heard Don say that “the Nazis knew how to run
+things”.
+This is a concern that you should report. Although encouraging students to think
+about situations from a different perspective can be useful, the beliefs expressed
+during the debate society meeting are concerning. The far-right views being expressed
+by Don could be an indicator of an extremist view, and possibly having accessed hate
+rhetoric.
+QA 57 Safeguarding Policy September 2025 P a g e | 25
+
+APPENDIX
+Risk assessment tool
+Low (1) Medium (2) High (3)
+First presentation of risk, Concerns of a significant Immediate risk to the
+e.g., low mood, panic, nature will receive person(s) has been
+anxiety. additional scrutiny and are identified; this can be in
+Concerns are likely to be likely to require relation to immediate risk
+managed at triage stage safeguarding triage and of homelessness and 999
+only and / or be managed may progress to a Concerns. Mental Health
+via routine case safeguarding enquiry. concerns where a student
+management. Professional Concerns are likely to be has suicidal ideation and
+judgement or concerns of isolated and are unlikely to has the means to act
+repeated low-level harm affect other people. The would also warrant high
+may progress to a concern should be an risk. Concerns of this
+safeguarding enquiry. isolated incident. critical nature will be
+escalated to overseeing
+safeguarding leads:
+Caroline Pike, Suzie
+Mitchell, Hannah Martin or
+Basra Khan.
+Is the risk: Is the risk: Is the risk:
+No impact Some impact but not Serious long-lasting
+Unlikely to recur long lasting impact
+Possible to recur Likely to recur
+QA 57 Safeguarding Policy September 2025 P a g e | 26
+
+APPENDIX
+Recognising abuse and neglect
+Physical abuse
+This includes hitting, slapping, pinching, pushing, misuse of medication and
+inappropriate holding or restraint. It may also include inappropriate sanctions or
+punishment and rough handling.
+Possible indicators:
+- History of unexplained falls
+- Unexplained bruising in well protected or soft parts of the body e.g., ears or
+buttocks
+- Multiple bruising in different stages of healing
+- Unexplained burns – unusual location or type
+- Unexplained fractures
+- Unexplained lacerations or abrasions
+- Slap, kick punch or finger marks
+- Injury shape similar to an object
+- Untreated medical problems
+- Weight loss due to malnutrition or dehydration
+Sexual abuse
+Examples: rape, indecent exposure, sexual harassment, inappropriate looking or
+touching, sexual teasing or innuendo, sexual photography, subjection to pornography or
+witnessing sexual acts, sexual acts or indecent exposure to which the adult has not
+consented or was pressured into.
+Possible indicators:
+- Sudden change in behaviour
+- Sudden onset of confusion
+- Incontinence
+- Withdrawal
+- Overt sexual behaviour/language by the adult
+- Self-inflicted injury
+- Disturbed sleep pattern/poor concentration
+- Difficulty in walking
+- Torn, stained underwear
+- ‘Love bites’
+- Pain/itching/bleeding or bruising in genital area
+- Sexually transmitted disease/urinary tract/vaginal infection
+- Bruising to upper arms and thighs
+QA 57 Safeguarding Policy September 2025 P a g e | 27
+
+- Frequent vaginal and urinary tract infection
+- Severe upset or agitation when bathing
+- Pregnancy in a person who is unable to consent
+People find sexual abuse particularly difficult to speak about. Patience and empathy are
+essential.
+Financial abuse
+Examples: fraud, theft, taking property without permission, assuming ownership of
+money or items, scamming (which can be in person, by letter, phone and internet),
+coercion in relation to an adult’s financial affairs including the writing of or changing a
+Will, and misuse of benefits. Financial abuse can involve small and large amounts of
+money or value of property.
+Possible indicators:
+- Sudden inability to pay bills
+- Sudden debt
+- Unexplained or unusual patterns of cash withdrawal from an account
+- Lack of belongings that the adult can clearly afford
+- Resistance by family to give explanation for unusual financial activity
+- Extraordinary interest by family in an adult’s assets
+- Purchase of items that the adult would not usually buy or need
+- Personal items going missing
+- The main interest shown by a family member is financial and not the in relation to
+the care of the adult
+Discriminatory abuse
+Examples: discriminatory abuse is often on the grounds of age, race, gender or gender
+identity, culture, religion, sexual orientation or disability.
+Other examples of abuse include:
+- Hate crime (acts of violence or hostility directed at people because of who they
+are or who someone thinks they are)
+- ‘Mate crime’ (sometimes used to describe a crime committed against an adult by
+someone who has befriended them)
+- Derogatory comments
+- Harassment
+- Being made to move to a different resource/service based upon an adult’s age
+- Being denied medical treatment on grounds of age or mental health
+Emotional/Psychological abuse
+Examples: threats of harm or abandonment, blackmail, deprivation of contact,
+humiliation and ridicule, blaming, controlling, intimidation, coercion, harassment,
+isolation, cyber bullying, shouting and swearing, unreasonable support of services or
+QA 57 Safeguarding Policy September 2025 P a g e | 28
+
+support networks, denial of cultural or religious needs, denial of access to the
+development of social skills.
+Possible indicators:
+- Change in appetite, weight loss or gain
+- Low self esteem
+- Upset and tearfulness
+- Confusion and agitation
+- Insomnia
+- Avoiding eye contact, withdrawal
+- Isolation, unable to make contact
+- Distress
+- Poor hygiene, resulting from restricted access to facilities
+- Uncharacteristic behaviour
+Neglect (and acts of omission)
+Examples: ignoring medical, emotional or physical needs; failure to provide access to
+appropriate health, care and support or educational services; withholding the necessities
+of life including medication, adequate nutrition and heating.
+Indicators (but are not limited to):
+- Poor environmental conditions
+- Inadequate heating and lighting
+- Poor physical condition of the adult
+- Malnutrition
+- Clothing is ill-fitting, unclean or in poor condition
+- Isolation of the adult
+- Withdrawal, unhappiness or change in demeanour
+- Carer’s reluctance to engage with professionals
+- Carers not allowing contact by professionals with the adult
+Self-neglect
+Examples: self-neglect can sometimes be as a result of a person’s choice of lifestyle and
+covers a wide range of behaviour including neglect to care for one’s personal hygiene,
+health or surroundings and can include hoarding when it becomes extreme (including
+animal hoarding). In these circumstances there is no abuser.
+Possible indicators:
+- Living in grossly unsanitary conditions
+- Suffering from untreated illness or disease/condition
+- Suffering from over or under eating to the extent that if untreated the adult’s
+physical or mental health could be impaired
+QA 57 Safeguarding Policy September 2025 P a g e | 29
+
+- Creating a hazardous situation that would likely cause serious physical harm to
+the adult or cause substantial loss of assets
+Organisational/Institutional abuse
+Examples: Neglect, poor practice within an institution such as a care home or hospital
+and also poor practice in relation to care provided in the adult’s own home. This can be
+only one incident or a series of incidents which identifies neglect or poor practice
+resulting from an organisations poor policies, procedures and practice.
+It is important not to jump to the wrong conclusions too quickly, but the following list
+may be possible indicators of institutional abuse:
+- No flexibility in bedtime routine and/or deliberate waking
+- People left on a commode or toilet for long periods of time
+- Inappropriate care of possessions, clothing and living area
+- Lack of personal clothes and belongings
+- Un-homely or stark living environments
+- Deprived environmental conditions and lack of stimulation
+- Inappropriate use of medical procedures such as enemas, catheterisation
+- Batch care - lack of individual care programmes
+- Illegal confinement or restrictions
+- Inappropriate use of power or control
+- People referred to, or spoken to with disrespect
+- Inflexible services based on convenience of the provider rather than the person
+receiving services
+- Inappropriate physical intervention
+- Service user removed from the home or establishment, without discussion with
+other appropriate people or agencies because staff are unable to manage the
+behaviour
+Domestic abuse
+The Home Office definition of domestic abuse (2013):
+- Incident or pattern of incidents of controlling, coercive or threatening behaviour,
+violence, or abuse by someone who is or has been an intimate partner or family
+member regardless of gender or sexuality
+- Includes psychological, physical, sexual, financial, emotional abuse; so, called
+‘honour’ based violence; Female Genital Mutilation; forced marriage
+- Includes anyone aged 16 or over
+Many people think that domestic abuse is about intimate partners, but it is clear that
+other family members are included and that much safeguarding work that occurs at
+home is, in fact is concerned with domestic abuse.
+QA 57 Safeguarding Policy September 2025 P a g e | 30
+
+Modern slavery
+Modern slavery includes slavery, human trafficking, forced labour and domestic
+servitude.
+Traffickers are those who arrange for the people to move from place to place to do the
+tasks that they are made to do. It includes moving within the UK and doesn’t have to be
+from abroad. You may often hear the words ‘harvesters’ or gardeners’ used in relation to
+the victims of modern slavery being made to grow and look after cannabis farms. Very
+often the traffickers trick victims into believing that they are arranging for them to have
+a better life and genuine employment.
+References
+https://www.ssaspb.org.uk/Reporting-Abuse/What-is-abuse.aspx
+QA 57 Safeguarding Policy September 2025 P a g e | 31

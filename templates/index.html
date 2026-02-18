@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Regulation Assistant</title>
+    <title>University Regulation Assistant</title>
 </head>
 <body>
-    <h1>University Regulation Assistant</h1>
 
-    <form method="POST" action="/">
-        <input
-            type="text"
-            name="question"
-            placeholder="Ask a question about the regulations"
-            style="width: 500px;"
-            required
-        >
-        <button type="submit">Ask</button>
-    </form>
+<h1>University Regulation Assistant</h1>
 
-    {% if answer %}
-        <hr>
-        <h2>Answer</h2>
-        <pre style="white-space: pre-wrap;">{{ answer }}</pre>
-    {% endif %}
+<form method="POST">
+    <input type="text" name="question" size="80" value="{{ question or '' }}" required>
+    <button type="submit">Ask</button>
+</form>
+
+{% if answer %}
+<hr>
+<h2>Answer</h2>
+<p><strong>Confidence:</strong> {{ confidence }}</p>
+<pre style="white-space: pre-wrap; max-width: 900px;">{{ answer }}</pre>
+{% endif %}
+
 </body>
 </html>
