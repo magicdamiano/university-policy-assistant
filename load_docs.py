@@ -4,32 +4,30 @@ DOCS_DIR = "docs"
 
 def load_documents():
     chunks = []
+    doc_id = 0
+
+    if not os.path.isdir(DOCS_DIR):
+        print("[load_docs] docs/ folder not found")
+        return chunks
 
     for filename in os.listdir(DOCS_DIR):
-        path = os.path.join(DOCS_DIR, filename)
-        if not os.path.isfile(path):
+        if not filename.endswith(".txt"):
             continue
 
+        path = os.path.join(DOCS_DIR, filename)
+
         with open(path, "r", encoding="utf-8") as f:
-            text = f.read()
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
 
-        parts = text.split("SECTION:")
-        header = parts[0]
+                doc_id += 1
+                chunks.append({
+                    "id": doc_id,
+                    "source": filename,
+                    "text": line
+                })
 
-        for part in parts[1:]:
-            lines = part.strip().splitlines()
-            section_title = lines[0].strip()
-            section_body = "\n".join(lines[1:]).strip()
-
-            chunks.append({
-                "document": filename,
-                "section": section_title,
-                "text": section_body
-            })
-
+    print(f"[load_docs] Loaded {len(chunks)} lines")
     return chunks
-
-
-if __name__ == "__main__":
-    for c in load_documents():
-        print(c)

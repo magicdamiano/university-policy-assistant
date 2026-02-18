@@ -1,21 +1,19 @@
 from load_docs import load_documents
 
-print("Loading documents...")
-DOCUMENT_CHUNKS = load_documents()
-print(f"Loaded {len(DOCUMENT_CHUNKS)} document chunks.")
+DOCUMENTS = load_documents()
 
 def normalize(text):
     return text.lower()
 
-def retrieve(question, top_k=3):
+def retrieve(question, top_k=5):
     q_words = set(normalize(question).split())
     scored = []
 
-    for c in DOCUMENT_CHUNKS:
-        text_words = set(normalize(c["text"]).split())
+    for d in DOCUMENTS:
+        text_words = set(normalize(d["text"]).split())
         overlap = len(q_words & text_words)
         if overlap > 0:
-            scored.append((overlap, c))
+            scored.append((overlap, d))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    return [c for _, c in scored[:top_k]]
+    return [d for _, d in scored[:top_k]]
