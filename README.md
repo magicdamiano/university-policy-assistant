@@ -1,45 +1,63 @@
-# University Policy Assistant (Arden University – Proof of Concept)
+# UniC – University Policy Assistant
 
-A policy-safe, evidence-based question answering system designed to help users
-navigate official university regulations without hallucination or speculation.
+UniC is a policy-focused academic assistant designed to provide clear, structured guidance based exclusively on official Arden University regulations and procedures.
 
-## Purpose
+The system combines document-based retrieval with a locally hosted large language model to answer student queries while avoiding speculation, opinion-based responses, or non-policy advice.
 
-This project demonstrates how a retrieval-based AI assistant can be built to
-support questions about university policies while maintaining institutional
-standards for accuracy, traceability, and safety.
-
-The system is intentionally conservative:
-- It answers only when relevant policy evidence exists
-- It avoids guessing or inventing rules
-- It clearly refuses when a question falls outside available documentation
+---
 
 ## Key Features
 
-- Uses only official university policy documents as sources
-- Retrieves policy text at line level for precise evidence
-- Groups answers by policy with metadata (title, code, effective date)
-- Applies intent-based filtering (complaints, attendance, misconduct, etc.)
-- Includes a safety override for dangerous or criminal topics
-- Displays confidence based on strength of evidence
-- Provides direct links to source PDFs where available
+- Answers questions using **official university policy documents only**
+- Prevents out-of-scope, subjective, or non-university-related responses
+- Safety-aware handling of sensitive or prohibited topics
+- Structured answers with confidence indication
+- Transparent fallback responses when no policy applies
+- Web-based interface built using Flask
+
+---
 
 ## How It Works (High Level)
 
-1. The user submits a question
-2. The system detects the topic (e.g. complaints, attendance, safety)
-3. Dangerous or criminal topics are handled immediately and safely
-4. Relevant policy text is retrieved from official documents
-5. Irrelevant policies are filtered out
-6. An answer is generated strictly from retrieved evidence
-7. Sources and confidence are shown to the user
+1. The user submits a question via the web interface  
+2. The system determines whether the question is within university scope  
+3. Dangerous or prohibited topics are intercepted and handled safely  
+4. Relevant policy text is retrieved from official documents  
+5. Irrelevant or unrelated policy content is filtered out  
+6. A response is generated strictly from retrieved policy evidence  
+7. A confidence level and clear explanation are presented to the user  
 
+This design prioritises accuracy, transparency, and avoidance of hallucinated answers.
+
+---
+
+## Model and Architecture
+
+- **Language Model:** LLaMA 3 (8 billion parameters)
+- **Inference:** Local, CPU-based inference
+- **Retrieval:** Keyword- and intent-filtered document search (RAG)
+- **Prompting:** Policy-constrained responses with explicit safety fallbacks
+
+A smaller model was deliberately selected to match realistic on-premise university hardware constraints while maintaining acceptable performance and reliability.
+
+---
+
+## System & Environment
+
+The UniC application is deployed on a Linux-based server using a stable Long-Term Support (LTS) environment.
+
+- **Operating System:** Ubuntu 24.04 LTS  
+- **Kernel:** Linux 6.8 (generic)  
+- **CPU:** Intel Core i5-9400 (6 cores)  
+- **Memory:** 16 GB RAM  
+- **GPU:** Integrated Intel UHD Graphics 630  
+
+The default Ubuntu LTS kernel was retained, as it already provides all required security, stability, and performance characteristics. No experimental or custom kernel modifications were applied.
+
+---
 
 ## Running the Application
 
-Activate the virtual environment: python app.py 
-
-## Disclaimer
-
-This project is a proof of concept for educational and demonstrative purposes.
-It does not represent official advice from Arden University.
+1. Activate the virtual environment:
+   ```bash
+   source venv/bin/activate
