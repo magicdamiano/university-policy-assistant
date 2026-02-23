@@ -31,6 +31,28 @@ This design prioritises accuracy, transparency, and avoidance of hallucinated an
 
 ---
 
+## Policy Coverage
+
+UniC provides answers strictly based on official Arden University policy documents.
+
+Included Tier-1 policies:
+
+- Arden Regulatory Framework
+- Academic Integrity and Misconduct Policy
+- Attendance and Engagement Policy
+- Student Complaints Procedure
+- Safeguarding and Prevent Policy
+- Fitness to Study Policy
+- Disability and Reasonable Adjustments Policy
+- Withdrawal Policy
+- Academic Appeals Process
+- Extenuating Circumstances Policy
+
+All documents are sourced from publicly available Arden University publications
+and processed into structured text for retrieval-augmented generation (RAG).
+
+---
+
 ## Model and Architecture
 
 - **Language Model:** LLaMA 3 (8 billion parameters)
