@@ -51,6 +51,30 @@ Included Tier-1 policies:
 All documents are sourced from publicly available Arden University publications
 and processed into structured text for retrieval-augmented generation (RAG).
 
+## Policy Documents and Data Handling
+
+This repository does **not** include raw policy PDF files.
+
+Official Arden University policy documents are treated as **external source data**
+and are intentionally excluded from version control for the following reasons:
+
+- copyright and redistribution restrictions  
+- academic data governance best practice  
+- separation of code and institutional content  
+
+### Using Policy Documents Locally
+
+To run the ingestion and retrieval pipeline:
+
+1. Create a folder named `raw_policies/` in the project root
+2. Place official Arden University policy PDFs inside this folder
+3. Run the document extraction and chunking scripts
+4. Start the Flask application as normal
+
+The system processes policy documents into structured text and uses
+retrieval-augmented generation (RAG) to ensure responses are grounded
+strictly in official policy content.
+
 ---
 
 ## Model and Architecture
