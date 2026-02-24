@@ -30,7 +30,7 @@ body {
 }
 
 .brand img {
-    height: 78px; /* BIGGER LOGO */
+    height: 95px; /* BIGGER LOGO */
 }
 
 .brand-text h1 {
@@ -169,6 +169,33 @@ pre {
 .footer-right {
     text-align: right;
 }
+
+/* ===== Social Links ===== */
+
+.social-links {
+    margin-top: 8px;
+    display: flex;
+    gap: 14px;
+    justify-content: flex-end;
+}
+
+.social-links a {
+    color: #64748b;
+    font-size: 18px;
+    transition: color 0.15s ease, transform 0.1s ease;
+}
+
+.social-links a:hover {
+    color: #1f6fd6;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 720px) {
+    .social-links {
+        justify-content: flex-start;
+    }
+}
+
 
 /* ===== Utilities ===== */
 

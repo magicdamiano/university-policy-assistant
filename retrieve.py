@@ -1,95 +1,108 @@
+import os
 import re
 from typing import List, Dict
-from load_docs import load_documents
 
-DOCUMENTS = load_documents()
+DOCS_PATH = "docs"
 
-WORD_RE = re.compile(r"[a-zA-Z]{3,}")
+SECTION_RE = re.compile(r"^\d+(\.\d+)*\s+.+")
+META_RE = re.compile(
+    r"(policy name:|policy reference:|approval authority:|last approved:|review frequency:|page \d+)",
+    re.IGNORECASE,
+)
 
-
-def tokenize(text: str) -> set:
-    return set(w.lower() for w in WORD_RE.findall(text))
-
-
-# -------------------------------
-# INTENT DETECTION
-# -------------------------------
-
-INTENT_KEYWORDS = {
-    "complaint": [
-        "complaint", "complain", "complaints", "grievance"
-    ],
-    "appeal": [
-        "appeal", "appeals"
-    ],
-    "misconduct": [
-        "misconduct", "discipline", "plagiarism"
-    ],
-    "attendance": [
-        "attendance", "engagement", "absence"
-    ],
-    "withdrawal": [
-        "withdraw", "withdrawal", "leave"
-    ],
+IMPORTANT_TERMS = {
+    "must", "will", "required", "not permitted", "may", "shall", "deadline",
+    "appeal", "withdrawal", "attendance", "engagement", "misconduct"
 }
 
 
-def detect_intent(question: str) -> str | None:
+def normalise(text: str) -> str:
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def load_documents() -> List[Dict]:
+    documents = []
+
+    for filename in os.listdir(DOCS_PATH):
+        if not filename.endswith(".txt"):
+            continue
+
+        policy_name = filename.replace("_", " ").replace(".txt", "")
+        path = os.path.join(DOCS_PATH, filename)
+
+        with open(path, "r", encoding="utf-8", errors="ignore") as f:
+            lines = [l.strip() for l in f if l.strip()]
+
+        current_title = "General"
+        current_section = []
+
+        for line in lines:
+            if SECTION_RE.match(line):
+                if current_section:
+                    documents.append({
+                        "policy": policy_name,
+                        "section": current_title,
+                        "text": normalise(" ".join(current_section))
+                    })
+                    current_section = []
+
+                current_title = line
+                continue
+
+            if META_RE.search(line):
+                continue
+
+            current_section.append(line)
+
+        if current_section:
+            documents.append({
+                "policy": policy_name,
+                "section": current_title,
+                "text": normalise(" ".join(current_section))
+            })
+
+    print(f"[load_docs] Loaded {len(documents)} section-level chunks")
+    return documents
+
+
+DOCUMENTS = load_documents()
+
+
+def retrieve(question: str, max_results: int = 6) -> List[Dict]:
     q = question.lower()
-    for intent, keys in INTENT_KEYWORDS.items():
-        if any(k in q for k in keys):
-            return intent
-    return None
+    q_tokens = set(re.findall(r"\w+", q))
 
-
-# -------------------------------
-# RETRIEVAL
-# -------------------------------
-
-def retrieve(question: str, max_results: int = 8) -> List[Dict]:
-    q_tokens = tokenize(question)
-    if not q_tokens:
-        return []
-
-    intent = detect_intent(question)
     scored = []
 
     for d in DOCUMENTS:
         text = d["text"].lower()
-        source = d["source"].lower()
+        section = d["section"].lower()
         policy = d["policy"].lower()
 
-        # Intent filtering (HARD FILTER)
-        if intent:
-            if intent == "complaint":
-                if "complaint" not in source and "complaint" not in policy:
-                    continue
-
-        text_tokens = tokenize(text)
-        overlap = q_tokens & text_tokens
-
+        tokens = set(re.findall(r"\w+", text))
+        overlap = q_tokens & tokens
         if not overlap:
             continue
 
         score = len(overlap)
 
-        # Section relevance
-        score += len(q_tokens & tokenize(d["section"]))
+        if any(t in text for t in IMPORTANT_TERMS):
+            score += 3
+
+        if any(t in section for t in q_tokens):
+            score += 2
+
+        if "safeguarding" in policy and not any(
+            k in q for k in ["safeguarding", "welfare", "risk", "abuse"]
+        ):
+            score -= 6
+
+        if "framework" in policy and not any(
+            k in q for k in ["framework", "board", "governance"]
+        ):
+            score -= 4
 
         scored.append((score, d))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-
-    results = []
-    seen = set()
-
-    for _, d in scored:
-        key = (d["policy"], d["section"])
-        if key in seen:
-            continue
-        seen.add(key)
-        results.append(d)
-        if len(results) >= max_results:
-            break
-
-    return results
+    return [d for _, d in scored[:max_results]]

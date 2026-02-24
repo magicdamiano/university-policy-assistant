@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <link rel="icon" href="{{ url_for('static', filename='unic-logo.png') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
             <textarea
                 id="question"
                 name="question"
-                placeholder="e.g. How do I raise a complaint? What happens if I miss classes?"
+                placeholder="e.g. How do I appeal an assessment decision at Arden University?"
                 required
             ></textarea>
 
@@ -55,17 +56,33 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div>
-            <strong>UniC – University Policy Assistant</strong><br>
-            Built using publicly available Arden University policy documents.
-        </div>
-        <div class="footer-right">
-            Developed by <strong>Damiano</strong><br>
-            Arden University Student, 2026
-        </div>
-    </footer>
+   <footer class="footer">
+      <div>
+        <strong>UniC – University Policy Assistant</strong><br>
+        Built using publicly available Arden University policy documents.
+     </div>
 
+    <div class="footer-right">
+        Developed by <strong>Damiano Stecco</strong><br>
+        Arden University Student, 2026
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/damiano-stecco"
+               target="_blank"
+               rel="noopener"
+               aria-label="LinkedIn profile">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a href="https://github.com/magicdamiano"
+               target="_blank"
+               rel="noopener"
+               aria-label="GitHub profile">
+                <i class="fa-brands fa-github"></i>
+            </a>
+         </div>
+      </div>
+   </footer>
 </div>
 
 <script src="{{ url_for('static', filename='app.js') }}"></script>
