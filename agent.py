@@ -7,31 +7,37 @@ from typing import List, Dict
 
 DOMAIN_KEYWORDS = {
     # Core academic lifecycle
-    "study", "studying", "student", "programme", "program", "course", "module",
-    "degree", "undergraduate", "postgraduate", "masters", "dissertation",
+    "study", "studying", "student", "programme",
+    "program", "course", "module",
+    "degree", "undergraduate", "postgraduate",
+    "masters", "dissertation",
 
     # Assessment & exams
-    "assessment", "exam", "examination", "test", "quiz", "assignment",
-    "coursework", "submission", "resubmission", "resit", "retake",
-    "grade", "mark", "marking", "feedback", "results", "pass", "fail",
+    "assessment", "exam", "examination", "test",
+    "quiz", "assignment",
+    "coursework", "submission", "resubmission",
+    "resit", "retake",
+    "grade", "mark", "marking", "feedback",
+    "results", "pass", "fail",
 
     # Appeals, complaints, procedures
-    "appeal", "appeals", "complaint", "complaints", "procedure", "process",
-    "policy", "regulation", "regulations", "academic judgement",
-    "procedural irregularity",
+    "appeal", "appeals", "complaint", "complaints",
+    "procedure", "process",
+    "policy", "regulation", "regulations",
 
     # Attendance & engagement
-    "attendance", "engagement", "engaging", "non-attendance",
-    "participation", "miss", "absence", "absent",
+    "attendance", "engagement", "engaging",
+    "non-attendance", "participation",
+    "absence", "absent",
 
     # Integrity & conduct
-    "plagiarism", "plagiarise", "cheating", "collusion",
-    "misconduct", "academic integrity", "disciplinary",
+    "plagiarism", "plagiarise", "cheating",
+    "collusion", "misconduct", "disciplinary",
 
     # Mitigation & support
     "extension", "extensions", "deadline", "deadlines",
-    "mitigating", "mitigation", "extenuating", "circumstances",
-    "illness", "medical", "evidence",
+    "mitigating", "mitigation", "extenuating",
+    "circumstances", "illness", "medical", "evidence",
 
     # Progression & status
     "progression", "progress", "repeat", "termination",
@@ -39,25 +45,34 @@ DOMAIN_KEYWORDS = {
     "deferral", "defer",
 
     # Support & wellbeing
-    "support", "wellbeing", "mental health", "disability",
+    "support", "wellbeing", "disability",
     "reasonable adjustments", "inclusion",
 
     # Institutional
-    "university", "arden", "campus", "tutor", "academic board",
+    "university", "arden", "campus", "tutor",
     "registry", "student support"
 }
 
+# Phrases matched as whole tokens (not substring)
 ATTENDANCE_ALIASES = {
-    "attendance", "engagement", "engaging", "attend", "attending",
-    "attended", "miss classes", "miss lectures", "miss sessions",
-    "skip classes", "skip lectures",
-    "not attending", "not engaging", "stop engaging",
-    "poor attendance", "low attendance",
+    "attendance", "engagement", "engaging",
+    "attend", "attending", "attended",
     "absence", "absent", "non attendance", "non-attendance",
-    "stopped attending", "haven't attended", "stop going to class",
-    "stop going to classes", "what happens if i don't attend",
-    "what if i stop engaging", "stop attending"
+    "poor attendance", "low attendance",
 }
+
+# Longer phrase patterns matched with regex (avoids false positives like "dismiss")
+ATTENDANCE_PHRASE_PATTERNS = [
+    r"\bmiss(?:ing|ed)?\s+(?:class(?:es)?|lecture[s]?|session[s]?|seminar[s]?)\b",
+    r"\bhow\s+many\s+(?:class(?:es)?|lecture[s]?|session[s]?)\s+can\s+i\s+miss\b",
+    r"\bskip(?:ped|ping)?\s+(?:class(?:es)?|lecture[s]?|session[s]?)\b",
+    r"\bnot\s+(?:attending|engaging|going\s+to\s+class(?:es)?)\b",
+    r"\bstopped?\s+attending\b",
+    r"\bhaven'?t\s+attended\b",
+    r"\bwhat\s+(?:if|happens)\s+(?:i\s+)?(?:don'?t|stop)\s+(?:attend|engag)\w*\b",
+    r"\bstop\s+going\s+to\s+class(?:es)?\b",
+    r"\bcan\s+i\s+miss\s+(?:class(?:es)?|lecture[s]?|session[s]?)\b",
+]
 
 PLAGIARISM_POLICIES = {
     "academic integrity",
@@ -65,62 +80,142 @@ PLAGIARISM_POLICIES = {
     "academic misconduct",
     "cheating",
     "collusion",
-    "plagiarism"
+    "plagiarism",
 }
 
 SUPPORT_INTENT_KEYWORDS = {
-    "stress", "stressed", "anxious", "anxiety",
-    "overwhelmed", "worried", "panic",
-    "mental health", "pressure", "burnout"
+    "stressed", "anxious", "anxiety",
+    "overwhelmed", "worried", "panicking",
+    "mental health", "burnout",
 }
+
+# Support phrases that ALSO need a policy context to route correctly
+SUPPORT_WITH_POLICY_PATTERNS = [
+    r"\b(?:stressed?|anxious|overwhelmed|worried|panic)\b.*\b(?:exam|deadline|submission|coursework|assignment|appeal|grade|fail)\b",
+    r"\b(?:exam|deadline|submission|coursework)\b.*\b(?:stressed?|anxious|overwhelmed|worried)\b",
+]
 
 APPEAL_ALIASES = {
     "appeal", "appeals", "academic appeal",
     "appeal decision", "appeal judgement",
-    "appeal mark", "appeal grade", "appeal result"
+    "appeal mark", "appeal grade", "appeal result",
 }
 
+APPEAL_PHRASE_PATTERNS = [
+    r"\bappeal(?:ing|ed)?\s+(?:my\s+)?(?:mark|grade|result|decision|assessment)\b",
+    r"\bcan\s+i\s+appeal\b",
+    r"\bhow\s+(?:do\s+i|to)\s+(?:submit\s+an?\s+)?appeal\b",
+]
+
 EXTENUATING_ALIASES = {
-    # --- Illness & health ---
+    # Illness & health
     "ill", "sick", "unwell", "medical", "health issue",
     "hospital", "hospitalised", "hospitalized",
     "surgery", "operation", "injured", "injury",
     "covid", "flu", "virus",
 
-    # --- Mental health ---
-    "stress", "stressed", "anxiety", "anxious",
-    "depression", "depressed",
-    "mental health", "panic", "panic attack",
-    "burnout", "overwhelmed",
+    # Mental health
+    "depression", "depressed", "panic attack",
 
-    # --- Family & personal emergencies ---
+    # Family & personal emergencies
     "family emergency", "personal emergency",
     "personal circumstances", "personal issues",
     "issues at home", "family issues",
     "bereavement", "funeral", "death in family",
     "parent ill", "relative ill",
 
-    # --- Accidents & unexpected events ---
+    # Accidents & unexpected events
     "accident", "emergency", "unexpected situation",
     "car accident", "injured myself",
 
-    # --- Impact on study (very important signals) ---
+    # Impact on study
     "missed deadline", "missed exam",
     "could not submit", "couldn't submit",
     "could not attend", "couldn't attend",
     "unable to submit", "unable to attend",
     "failed because", "affected my assessment",
-    "affected my exam", "affected my coursework"
+    "affected my exam", "affected my coursework",
 }
+
+EXTENUATING_PHRASE_PATTERNS = [
+    r"\b(?:missed?|couldn'?t|could not|unable to)\s+(?:submit|attend|complete)\b",
+    r"\b(?:ill|sick|injured|hospitalised?|hospitalized)\b.*\b(?:exam|assessment|deadline|coursework)\b",
+    r"\b(?:bereavement|family emergency|personal emergency)\b",
+    r"\b(?:extension|extenuating|mitigating)\s+(?:request|circumstances?|evidence)\b",
+]
 
 WITHDRAWAL_ALIASES = {
     "withdraw", "withdrawal", "leave course",
-    "quit course", "drop out",
+    "quit course", "drop out", "dropping out",
+    "dropped out", "dropout",
     "suspend studies", "interruption",
-    "defer", "deferral"
+    "defer", "deferral",
 }
 
 MAX_POLICIES = 2
+
+# ==================================================
+# OFF-TOPIC BLOCKLIST
+# Questions containing these terms are rejected even if they mention
+# "university", "student", etc. They are clearly not academic policy questions.
+# ==================================================
+
+OFF_TOPIC_SUBJECTS = {
+    # Weapons & safety threats
+    "knife", "knives", "weapon", "weapons", "gun", "guns", "firearm",
+    "bomb", "explosive", "blade", "sword", "axe", "violence",
+
+    # Food & drink
+    "cook", "cooking", "recipe", "food", "eat", "eating", "drink",
+    "coffee", "lunch", "dinner", "breakfast", "meal", "pasta", "pizza",
+
+    # Transport & travel (non-academic)
+    "drive", "driving", "car", "bus", "train", "flight", "travel",
+    "parking", "commute",
+
+    # Weather & environment
+    "weather", "rain", "sunny", "temperature", "forecast",
+
+    # Entertainment
+    "movie", "film", "song", "music", "game", "sport", "football",
+    "netflix", "spotify",
+
+    # General life / personal
+    "relationship", "dating", "boyfriend", "girlfriend", "marriage",
+    "shopping", "fashion", "hair", "makeup",
+}
+
+# ==================================================
+# MATCHING HELPERS
+# ==================================================
+
+def _token_match(q: str, aliases: set) -> bool:
+    """
+    Match whole-word tokens against the alias set.
+    Avoids substring false positives (e.g. 'miss' inside 'dismiss').
+    """
+    for alias in aliases:
+        # Build a pattern that matches the alias as a whole phrase
+        pattern = r"\b" + re.escape(alias) + r"\b"
+        if re.search(pattern, q):
+            return True
+    return False
+
+
+def _phrase_match(q: str, patterns: List[str]) -> bool:
+    """Match any regex pattern from the list against q."""
+    return any(re.search(p, q) for p in patterns)
+
+
+def _confidence_from_context(context: List[Dict], base: int = 50) -> int:
+    """
+    Heuristically scale confidence based on retrieved context quality.
+    Returns an integer 0–95.
+    """
+    if not context:
+        return max(0, base - 20)
+    boost = min(len(context) * 3, 15)  # up to +15 for multiple hits
+    return min(95, base + boost)
 
 
 # ==================================================
@@ -142,8 +237,9 @@ def attendance_limit_answer() -> str:
 
 
 def academic_appeal_answer(context: List[Dict]) -> str:
+    confidence = _confidence_from_context(context, base=65)
     return (
-        "Confidence: 70%\n\n"
+        f"Confidence: {confidence}%\n\n"
         "You cannot normally appeal academic judgement itself.\n\n"
         "However, you may submit an academic appeal if you believe:\n"
         "- A procedural irregularity occurred\n"
@@ -155,23 +251,42 @@ def academic_appeal_answer(context: List[Dict]) -> str:
     )
 
 
+def extenuating_circumstances_answer(context: List[Dict]) -> str:
+    confidence = _confidence_from_context(context, base=60)
+    if context:
+        return general_policy_answer(context, label="Extenuating / Mitigating Circumstances", base_confidence=confidence)
+    return (
+        f"Confidence: {confidence}%\n\n"
+        "If personal circumstances have affected your ability to study or complete "
+        "assessments, you may be eligible to submit an Extenuating Circumstances claim.\n\n"
+        "You should:\n"
+        "- Notify your tutor or Student Support as soon as possible\n"
+        "- Gather supporting evidence (e.g. medical documentation)\n"
+        "- Submit your claim within the published deadline\n\n"
+        "Source: Extenuating Circumstances Policy"
+    )
+
+
 # ==================================================
 # GENERIC POLICY ANSWER
 # ==================================================
 
-def general_policy_answer(context: List[Dict]) -> str:
+def general_policy_answer(
+    context: List[Dict],
+    label: str = "Based on official Arden University policy documents",
+    base_confidence: int = 50
+) -> str:
+    confidence = _confidence_from_context(context, base=base_confidence)
     lines = [
-        "Confidence: 50%\n",
-        "Based on official Arden University policy documents:\n"
+        f"Confidence: {confidence}%\n",
+        f"{label}:\n"
     ]
 
     seen = set()
-
     for c in context:
         key = (c["policy"], c["section"])
         if key in seen:
             continue
-
         seen.add(key)
 
         sentences = re.split(r"(?<=[.!?])\s+", c["text"])
@@ -187,7 +302,6 @@ def general_policy_answer(context: List[Dict]) -> str:
     lines.append(
         "This response is limited to published policy content and does not provide personal advice."
     )
-
     return "\n".join(lines)
 
 
@@ -215,38 +329,76 @@ def no_answer() -> str:
 
 
 # ==================================================
-# MAIN ROUTER
+# INTENT DETECTORS
 # ==================================================
 
 def is_domain_question(question: str) -> bool:
     q = question.lower()
 
-    # Core academic / regulatory terms
-    if any(k in q for k in DOMAIN_KEYWORDS):
-        return True
+    # Blocklist checked FIRST — rejects off-topic questions even if they
+    # contain "university", "student", etc. (e.g. "bring a knife at university")
+    if _token_match(q, OFF_TOPIC_SUBJECTS):
+        return False
 
-    # Attendance & engagement should count as domain
-    if any(a in q for a in ATTENDANCE_ALIASES):
+    if _token_match(q, DOMAIN_KEYWORDS):
         return True
-
-    # Appeals phrasing (sometimes no "policy" words)
-    if any(a in q for a in APPEAL_ALIASES):
+    if is_attendance_question(q):
         return True
-
+    if is_appeal_question(q):
+        return True
+    if is_extenuating_question(q):
+        return True
+    if is_withdrawal_question(q):
+        return True
     return False
 
-def is_support_question(question: str) -> bool:
-    q = question.lower()
-    return any(k in q for k in SUPPORT_INTENT_KEYWORDS)
+
+def is_attendance_question(q: str) -> bool:
+    return _token_match(q, ATTENDANCE_ALIASES) or _phrase_match(q, ATTENDANCE_PHRASE_PATTERNS)
+
+
+def is_appeal_question(q: str) -> bool:
+    return _token_match(q, APPEAL_ALIASES) or _phrase_match(q, APPEAL_PHRASE_PATTERNS)
+
+
+def is_extenuating_question(q: str) -> bool:
+    return _token_match(q, EXTENUATING_ALIASES) or _phrase_match(q, EXTENUATING_PHRASE_PATTERNS)
+
+
+def is_support_question(q: str) -> bool:
+    """
+    Only fires if the user is expressing distress WITHOUT a clear policy context.
+    If they mention stress AND a policy topic, route to policy instead.
+    """
+    has_support_signal = _token_match(q, SUPPORT_INTENT_KEYWORDS)
+    if not has_support_signal:
+        return False
+    # If the question mixes support with a policy topic, let policy routing handle it
+    if _phrase_match(q, SUPPORT_WITH_POLICY_PATTERNS):
+        return False
+    return True
+
+
+def is_plagiarism_question(q: str) -> bool:
+    return _token_match(q, {"plagiarism", "plagiarise", "misconduct", "collusion", "cheating", "academic integrity"})
+
+
+def is_withdrawal_question(q: str) -> bool:
+    return _token_match(q, WITHDRAWAL_ALIASES)
+
+
+# ==================================================
+# MAIN ROUTER
+# ==================================================
 
 def answer(question: str, context: List[Dict]) -> str:
     q = question.lower()
 
-    # 1. Support / wellbeing intent (handled BEFORE domain gate)
+    # 1. Support / wellbeing intent ONLY when no policy topic is mixed in
     if is_support_question(q):
         return (
             "Confidence: 40%\n\n"
-            "I can’t provide personal or wellbeing advice.\n\n"
+            "I can't provide personal or wellbeing advice.\n\n"
             "However, Arden University policies reference support mechanisms such as "
             "reasonable adjustments, extensions, mitigating circumstances, and "
             "Student Support services.\n\n"
@@ -258,40 +410,44 @@ def answer(question: str, context: List[Dict]) -> str:
     if not is_domain_question(q):
         return out_of_scope_answer()
 
-    # 3. Attendance (strong intent)
-    if any(a in q for a in ATTENDANCE_ALIASES):
+    # 3. Attendance (strong intent — fixed answer)
+    if is_attendance_question(q):
         return attendance_limit_answer()
 
-    # 4. Academic appeals
-    if any(a in q for a in APPEAL_ALIASES):
+    # 4. Extenuating / mitigating circumstances (check before appeals to avoid overlap)
+    if is_extenuating_question(q):
+        return extenuating_circumstances_answer(context)
+
+    # 5. Academic appeals
+    if is_appeal_question(q):
         return academic_appeal_answer(context)
 
-    # 5. Plagiarism / misconduct (filter context)
-    if "plagiarism" in q or "misconduct" in q:
+    # 6. Plagiarism / misconduct (filter context to relevant policies)
+    if is_plagiarism_question(q):
         filtered = [
             c for c in context
             if any(p in c["policy"].lower() for p in PLAGIARISM_POLICIES)
         ]
         if filtered:
-            return general_policy_answer(filtered)
+            return general_policy_answer(filtered, base_confidence=55)
         return no_answer()
 
-    # 6. Withdrawal / interruption
-    if any(a in q for a in WITHDRAWAL_ALIASES):
+    # 7. Withdrawal / interruption
+    if is_withdrawal_question(q):
         if context:
-            return general_policy_answer(context)
+            return general_policy_answer(context, base_confidence=55)
         return no_answer()
 
-    # 7. Generic policy fallback
+    # 8. Generic policy fallback
     if context:
         return general_policy_answer(context)
-
     return no_answer()
+
 
 # ==================================================
 # BACKWARDS COMPATIBILITY
 # ==================================================
-# app.py imports generate_answer — DO NOT REMOVE
 
+# app.py imports generate_answer — DO NOT REMOVE
 def generate_answer(question: str, context: List[Dict]) -> str:
     return answer(question, context)
