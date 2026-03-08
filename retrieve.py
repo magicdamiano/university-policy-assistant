@@ -40,6 +40,7 @@ IMPORTANT_TERMS: Set[str] = {
     "appeal", "withdrawal", "attendance", "engagement", "misconduct",
     "plagiarism", "extension", "mitigating", "extenuating", "resit",
     "resubmission", "suspension", "deferral", "termination",
+    "penalty", "sanction", "guilty", "consequences", "exclusion",
 }
 
 # ==================================================
@@ -217,7 +218,7 @@ def retrieve(question: str, max_results: int = 6) -> List[Dict]:
     return chunks
 
 
-def retrieve_with_scores(question: str, max_results: int = 6) -> Tuple[List[Dict], List[float]]:
+def retrieve_with_scores(question: str, max_results: int = 10) -> Tuple[List[Dict], List[float]]:
     """
     Return (chunks, scores) — the top-scoring document chunks AND their scores.
     Pass scores to agent.answer() for accurate confidence calculation.

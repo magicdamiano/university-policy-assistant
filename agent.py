@@ -137,7 +137,7 @@ WITHDRAWAL_ALIASES = {
     "defer", "deferral",
 }
 
-MAX_POLICIES = 3  # Increased from 2 — use more retrieved context
+MAX_POLICIES = 5  # Increased from 2 to 5 — use more retrieved context
 
 
 # ==================================================
@@ -446,7 +446,22 @@ def answer(question: str, context: List[Dict], scores: List[float] = None) -> st
 
     # 5. Academic appeals
     if is_appeal_question(q):
-        body, confidence = academic_appeal_answer(context, scores)
+        filtered = [
+            c for c in context
+            if "misconduct" not in c["policy"].lower()
+            and "integrity" not in c["policy"].lower()
+            and "withdrawal" not in c["policy"].lower()
+            and "extenuating" not in c["policy"].lower()
+            and "attendance" not in c["policy"].lower()
+        ]
+        filtered_scores = [scores[i] for i, c in enumerate(context)
+            if "misconduct" not in context[i]["policy"].lower()
+            and "integrity" not in context[i]["policy"].lower()
+            and "withdrawal" not in context[i]["policy"].lower()
+            and "extenuating" not in context[i]["policy"].lower()
+            and "attendance" not in context[i]["policy"].lower()
+        ] if scores else []
+        body, confidence = academic_appeal_answer(filtered or context, filtered_scores or scores)
         return _format_response(body, confidence)
 
     # 6. Plagiarism / misconduct (filter context to relevant policies)
