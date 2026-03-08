@@ -10,12 +10,11 @@ from collections import Counter
 
 DOCS_PATH = "docs"
 
-SECTION_RE = re.compile(r"^\d+(\.\d+)*\s+.+")
+SECTION_RE = re.compile(r"^\d+[\.\s]+.+")
 META_RE = re.compile(
-    r"(policy name:|policy reference:|approval authority:|last approved:|review frequency:|page \d+)",
+    r"(policy name:|policy reference:|approval authority:|last approved:|review frequency:|page \d+|keywords:)",
     re.IGNORECASE,
 )
-
 # ==================================================
 # STOP WORDS
 # ==================================================
@@ -40,7 +39,7 @@ IMPORTANT_TERMS: Set[str] = {
     "appeal", "withdrawal", "attendance", "engagement", "misconduct",
     "plagiarism", "extension", "mitigating", "extenuating", "resit",
     "resubmission", "suspension", "deferral", "termination",
-    "penalty", "sanction", "guilty", "consequences", "exclusion",
+    "penalty", "sanction", "guilty", "consequences", "exclusion","plagiarise", "dissertation", "academic integrity",
 }
 
 # ==================================================
@@ -168,11 +167,23 @@ def _score(q: str, q_tokens: Set[str], q_raw: str, doc: Dict) -> float:
     doc_tokens = token_set(doc["text"])
     overlap = q_tokens & doc_tokens
 
-    if not overlap:
+    # --- Plagiarism synonym boost ---
+    plagiarism_boost = 0
+    PLAGIARISM_SYNONYMS = {"plagiarise", "plagiarising", "plagiarized", "plagiarize"}
+    if any(p in q_raw for p in PLAGIARISM_SYNONYMS):
+        if "plagiarism" in text or "misconduct" in text:
+            plagiarism_boost = 15
+
+    if not overlap and plagiarism_boost == 0:
         return 0.0
 
     # --- 1. TF-IDF weighted overlap ---
-    score = sum(IDF.get(t, 0.0) for t in overlap)
+    score = sum(IDF.get(t, 0.0) for t in overlap) + plagiarism_boost
+    # --- Plagiarism synonym boost ---
+    PLAGIARISM_SYNONYMS = {"plagiarise", "plagiarising", "plagiarized", "plagiarize"}
+    if any(p in q_raw for p in PLAGIARISM_SYNONYMS):
+        if "plagiarism" in text or "misconduct" in text:
+            score += 10
 
     # --- 2. Shared important terms boost ---
     for term in IMPORTANT_TERMS:

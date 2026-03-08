@@ -87,7 +87,7 @@ SUPPORT_WITH_POLICY_PATTERNS = [
 APPEAL_ALIASES = {
     "appeal", "appeals", "academic appeal",
     "appeal decision", "appeal judgement",
-    "appeal mark", "appeal grade", "appeal result",
+    "appeal mark", "appeal grade", "appeal result","unfairly", "challenge", "challenge my", "marked wrong",
 }
 
 APPEAL_PHRASE_PATTERNS = [
@@ -112,7 +112,7 @@ EXTENUATING_ALIASES = {
     "parent ill", "relative ill",
     # Accidents & unexpected events
     "accident", "emergency", "unexpected situation",
-    "car accident", "injured myself",
+    "car accident", "injured myself","passed away", "death of", "lost my", "bereavement",
     # Impact on study
     "missed deadline", "missed exam",
     "could not submit", "couldn't submit",
@@ -134,7 +134,7 @@ WITHDRAWAL_ALIASES = {
     "quit course", "drop out", "dropping out",
     "dropped out", "dropout",
     "suspend studies", "interruption",
-    "defer", "deferral",
+    "defer", "deferral","temporarily suspend", "pause my studies", "pause studies",
 }
 
 MAX_POLICIES = 5  # Increased from 2 to 5 — use more retrieved context

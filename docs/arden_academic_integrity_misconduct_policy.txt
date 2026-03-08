@@ -1,5 +1,6 @@
 QUALITY ASSURANCE DOCUMENT QA 23: ACADEMIC INTEGRITY AND MISCONDUCT
-INTRODUCTION
+Keywords: plagiarise plagiarising plagiarized plagiarize cheating collusion dissertation misconduct
+1. Introduction
 This policy and procedure applies to all students of the University and therefore all
 taught programmes and modules offered at Undergraduate and Postgraduate levels. It is
 also applicable to students undertaking an Arden University programme through a
@@ -10,14 +11,14 @@ ii. Appropriate penalties and sanctions are imposed for proven cases of academic
 misconduct.
 iii. Academic Integrity is promoted across the University and issues relating to this
 are responded to appropriately to minimise the risk of academic misconduct.
-ACADEMIC INTEGRITY
+2. Academic Integrity
 2. Academic integrity is about fairness and honesty in the assessment process and
 mastering the art of scholarship. Scholarship involves researching, understanding and
 building upon the works of others and requires that students give credit where it is
 due and acknowledge the contributions of others to their own intellectual efforts.
 Where a student does not act with Academic Integrity, their work may demonstrate
 poor academic practice, or it may represent academic misconduct.
-ACADEMIC MISCONDUCT
+3. Academic Misconduct
 3. Academic Misconduct is any action or attempted action that may result in creating
 an unfair academic advantage for oneself or an unfair academic advantage or
 disadvantage for any other member or members of the academic community.
@@ -95,7 +96,7 @@ Some typographical or other errors in the reference list.
 Submissions which have a high overall percentage match with previously published work on
 Turnitin should not automatically be referred for further investigation. The nature of the
 match should be investigated to see how it constructed.
-OFFENCE OF ACADEMIC MISCONDUCT
+4. Offence of Academic Misconduct
 8. A student is guilty of academic misconduct if acting alone or with other(s) gains or
 attempts to gain credit or advantage in an assessment by improper means:
 i. A student commits the offence of academic misconduct, gaining advantage or
@@ -109,7 +110,7 @@ penalty or action.
 9. Cases of academic misconduct are treated extremely seriously. Students found guilty of
 committing an academic misconduct offence will be penalised. Penalties are detailed in
 Section 27.
-REPORTING SUSPICIONS OF ACADEMIC MISCONDUCT
+5. Reporting Suspicions of Academic Misconduct
 10. Students are required to submit their assignments electronically via the online
 submission portal. It is Arden University’s policy to systematically scan assessment
 submissions received in this way by use of the Turnitin plagiarism detection system.
@@ -156,7 +157,7 @@ invigilator’s report and append any supporting evidence to their report.
 17. Allegations raised during the marking stage will be initially reviewed by an Academic
 Integrity Officer to determine whether a formal allegation will be made against a
 student.
-VIVA VOCE MEETINGS
+6. Viva Voce Meetings
 QA 23 Academic Integrity and Misconduct Policy
 Version 9 Page 4 of 11
 October 2024
@@ -185,7 +186,7 @@ and investigation by the Academic Misconduct Panel. Once the meeting is conclude
 if concerns remain, a formal allegation will be made and referred to the Academic
 Misconduct Panel. The student will be issued with further instructions as detailed within
 section 22.
-ACADEMIC MISCONDUCT PANEL
+7. Academic Misconduct Panel
 22. All instances of alleged academic misconduct will be collated by a nominee of the
 Quality team who will be responsible for convening an Academic Misconduct Panel to
 hear and investigate the allegations and to determine any penalties to be applied. The
@@ -248,7 +249,7 @@ QA 23 Academic Integrity and Misconduct Policy
 Version 9 Page 6 of 11
 October 2024
 
-ACTIONS AND PENALTIES
+8. Actions and Penalties
 28. The table on page 12 provides guidance on the course of action and application of
 penalties for different levels of offences.
 29. Where students present evidence of extenuating circumstances during the
@@ -337,7 +338,7 @@ examination security and implicate the Head of Centre or senior management will
 be reported to the Academic Registrar and will be investigated accordingly.
 viii. Confirmed cases of Academic misconduct may be reported to professional bodies
 where applicable.
-APPEALS
+9. Appeals
 31. Students whose allegation of academic misconduct has been substantiated have the
 right to appeal against the decision of the Academic Misconduct Panel. Student appeals
 must be made in writing and in accordance with the QA 24 Academic Appeals policy.
