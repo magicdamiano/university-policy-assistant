@@ -1,7 +1,7 @@
 import os
 import re
 import math
-from typing import List, Dict, Set
+from typing import List, Dict, Set, Tuple
 from collections import Counter
 
 # ==================================================
@@ -11,14 +11,13 @@ from collections import Counter
 DOCS_PATH = "docs"
 
 SECTION_RE = re.compile(r"^\d+(\.\d+)*\s+.+")
-
 META_RE = re.compile(
     r"(policy name:|policy reference:|approval authority:|last approved:|review frequency:|page \d+)",
     re.IGNORECASE,
 )
 
 # ==================================================
-# STOP WORDS  (excluded from scoring entirely)
+# STOP WORDS
 # ==================================================
 
 STOP_WORDS: Set[str] = {
@@ -33,7 +32,7 @@ STOP_WORDS: Set[str] = {
 }
 
 # ==================================================
-# IMPORTANT TERMS  (must appear in BOTH question and chunk to score)
+# IMPORTANT TERMS
 # ==================================================
 
 IMPORTANT_TERMS: Set[str] = {
@@ -45,28 +44,19 @@ IMPORTANT_TERMS: Set[str] = {
 
 # ==================================================
 # OFF-TOPIC POLICY PENALTIES
-# policy substring → list of required question keywords to AVOID penalty
-# If none of the keywords appear in the question, apply the penalty.
 # ==================================================
 
 OFF_TOPIC_PENALTIES: List[Dict] = [
-    {"policy": "safeguarding",  "keywords": ["safeguarding", "welfare", "risk", "abuse", "protection"],  "penalty": 8},
-    {"policy": "framework",     "keywords": ["framework", "board", "governance", "committee"],           "penalty": 6},
-    {"policy": "staff",         "keywords": ["staff", "employee", "hr", "contract"],                     "penalty": 7},
-    {"policy": "data",          "keywords": ["data", "gdpr", "privacy", "information"],                  "penalty": 5},
-    {"policy": "procurement",   "keywords": ["procurement", "supplier", "tender", "purchasing"],         "penalty": 9},
+    {"policy": "safeguarding", "keywords": ["safeguarding", "welfare", "risk", "abuse", "protection"], "penalty": 8},
+    {"policy": "framework", "keywords": ["framework", "board", "governance", "committee"], "penalty": 6},
+    {"policy": "staff", "keywords": ["staff", "employee", "hr", "contract"], "penalty": 7},
+    {"policy": "data", "keywords": ["data", "gdpr", "privacy", "information"], "penalty": 5},
+    {"policy": "procurement", "keywords": ["procurement", "supplier", "tender", "purchasing"], "penalty": 9},
 ]
 
-# Minimum character length for a chunk to be considered
 MIN_CHUNK_LENGTH = 80
-
-# Boost given when a query phrase appears verbatim (contiguous) in the chunk
 PHRASE_BOOST = 4
-
-# Boost per important term that appears in BOTH question AND chunk
 SHARED_IMPORTANT_TERM_BOOST = 3
-
-# Boost when a meaningful query token appears in the section title
 SECTION_TITLE_BOOST = 2
 
 # ==================================================
@@ -92,15 +82,11 @@ def token_set(text: str) -> Set[str]:
 
 def load_documents() -> List[Dict]:
     documents = []
-
-    for filename in sorted(os.listdir(DOCS_PATH)):   # sorted for determinism
+    for filename in sorted(os.listdir(DOCS_PATH)):
         if not filename.endswith(".txt"):
             continue
-
-        # Fix: use a space not \n when deriving policy name
         policy_name = filename.replace("_", " ").replace(".txt", "").strip().title()
         path = os.path.join(DOCS_PATH, filename)
-
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
             lines = [l.strip() for l in f if l.strip()]
 
@@ -120,10 +106,8 @@ def load_documents() -> List[Dict]:
                 current_section = []
                 current_title = line
                 continue
-
             if META_RE.search(line):
                 continue
-
             current_section.append(line)
 
         # Flush the last section
@@ -142,15 +126,14 @@ def load_documents() -> List[Dict]:
 
 DOCUMENTS: List[Dict] = load_documents()
 
-
 # ==================================================
-# IDF  (computed once at load time, over all chunks)
+# IDF
 # ==================================================
 
 def _build_idf(docs: List[Dict]) -> Dict[str, float]:
     """
     Inverse Document Frequency: rare terms across the corpus score higher.
-    idf(t) = log((N + 1) / (df(t) + 1))  — smoothed to avoid division by zero.
+    idf(t) = log((N + 1) / (df(t) + 1)) — smoothed to avoid division by zero.
     """
     N = len(docs)
     df: Dict[str, int] = Counter()
@@ -162,7 +145,6 @@ def _build_idf(docs: List[Dict]) -> Dict[str, float]:
 
 IDF: Dict[str, float] = _build_idf(DOCUMENTS)
 
-
 # ==================================================
 # SCORING
 # ==================================================
@@ -172,11 +154,11 @@ def _score(q: str, q_tokens: Set[str], q_raw: str, doc: Dict) -> float:
     Score a single document chunk against the query.
 
     Components:
-      1. TF-IDF weighted token overlap
-      2. Shared important terms boost
-      3. Phrase match boost (verbatim n-gram in chunk)
-      4. Section title match boost
-      5. Off-topic policy penalty
+    1. TF-IDF weighted token overlap
+    2. Shared important terms boost
+    3. Phrase match boost (verbatim n-gram in chunk)
+    4. Section title match boost
+    5. Off-topic policy penalty
     """
     text = doc["text"].lower()
     section = doc["section"].lower()
@@ -193,26 +175,24 @@ def _score(q: str, q_tokens: Set[str], q_raw: str, doc: Dict) -> float:
 
     # --- 2. Shared important terms boost ---
     for term in IMPORTANT_TERMS:
-        # term must appear in BOTH the question AND the chunk
         if term in q_raw and term in text:
             score += SHARED_IMPORTANT_TERM_BOOST
 
     # --- 3. Phrase match boost ---
-    # Check if any 2- or 3-token subsequence from the query appears verbatim in the chunk
     q_word_list = tokenise(q_raw)
     for n in (2, 3):
         for i in range(len(q_word_list) - n + 1):
             phrase = " ".join(q_word_list[i:i + n])
             if phrase in text:
                 score += PHRASE_BOOST
-                break   # one boost per chunk is enough
+                break
 
     # --- 4. Section title match ---
     for t in q_tokens:
         pattern = r"\b" + re.escape(t) + r"\b"
         if re.search(pattern, section):
             score += SECTION_TITLE_BOOST
-            break   # cap at one boost
+            break
 
     # --- 5. Off-topic policy penalty ---
     for rule in OFF_TOPIC_PENALTIES:
@@ -230,19 +210,23 @@ def _score(q: str, q_tokens: Set[str], q_raw: str, doc: Dict) -> float:
 def retrieve(question: str, max_results: int = 6) -> List[Dict]:
     """
     Return the top-scoring document chunks for the given question.
+    Backwards-compatible: returns list of dicts (scores are NOT included here).
+    Use retrieve_with_scores() to get scores for confidence calculation.
+    """
+    chunks, _ = retrieve_with_scores(question, max_results)
+    return chunks
 
-    Scoring combines:
-      - TF-IDF weighted token overlap (rare shared words score higher)
-      - Shared important policy terms boost
-      - Verbatim phrase matching bonus
-      - Section title relevance bonus
-      - Off-topic policy penalties
+
+def retrieve_with_scores(question: str, max_results: int = 6) -> Tuple[List[Dict], List[float]]:
+    """
+    Return (chunks, scores) — the top-scoring document chunks AND their scores.
+    Pass scores to agent.answer() for accurate confidence calculation.
     """
     q_raw = question.lower()
     q_tokens = token_set(question)
 
     if not q_tokens:
-        return []
+        return [], []
 
     scored = []
     for d in DOCUMENTS:
@@ -251,5 +235,5 @@ def retrieve(question: str, max_results: int = 6) -> List[Dict]:
             scored.append((s, d))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-
-    return [d for _, d in scored[:max_results]]
+    top = scored[:max_results]
+    return [d for _, d in top], [s for s, _ in top]

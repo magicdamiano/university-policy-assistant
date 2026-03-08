@@ -11,7 +11,6 @@ DOMAIN_KEYWORDS = {
     "program", "course", "module",
     "degree", "undergraduate", "postgraduate",
     "masters", "dissertation",
-
     # Assessment & exams
     "assessment", "exam", "examination", "test",
     "quiz", "assignment",
@@ -19,41 +18,33 @@ DOMAIN_KEYWORDS = {
     "resit", "retake",
     "grade", "mark", "marking", "feedback",
     "results", "pass", "fail",
-
     # Appeals, complaints, procedures
     "appeal", "appeals", "complaint", "complaints",
     "procedure", "process",
     "policy", "regulation", "regulations",
-
     # Attendance & engagement
     "attendance", "engagement", "engaging",
     "non-attendance", "participation",
     "absence", "absent",
-
     # Integrity & conduct
     "plagiarism", "plagiarise", "cheating",
     "collusion", "misconduct", "disciplinary",
-
     # Mitigation & support
     "extension", "extensions", "deadline", "deadlines",
     "mitigating", "mitigation", "extenuating",
     "circumstances", "illness", "medical", "evidence",
-
     # Progression & status
     "progression", "progress", "repeat", "termination",
     "withdraw", "withdrawal", "suspension", "interruption",
     "deferral", "defer",
-
     # Support & wellbeing
     "support", "wellbeing", "disability",
     "reasonable adjustments", "inclusion",
-
     # Institutional
     "university", "arden", "campus", "tutor",
     "registry", "student support"
 }
 
-# Phrases matched as whole tokens (not substring)
 ATTENDANCE_ALIASES = {
     "attendance", "engagement", "engaging",
     "attend", "attending", "attended",
@@ -61,7 +52,6 @@ ATTENDANCE_ALIASES = {
     "poor attendance", "low attendance",
 }
 
-# Longer phrase patterns matched with regex (avoids false positives like "dismiss")
 ATTENDANCE_PHRASE_PATTERNS = [
     r"\bmiss(?:ing|ed)?\s+(?:class(?:es)?|lecture[s]?|session[s]?|seminar[s]?)\b",
     r"\bhow\s+many\s+(?:class(?:es)?|lecture[s]?|session[s]?)\s+can\s+i\s+miss\b",
@@ -89,7 +79,6 @@ SUPPORT_INTENT_KEYWORDS = {
     "mental health", "burnout",
 }
 
-# Support phrases that ALSO need a policy context to route correctly
 SUPPORT_WITH_POLICY_PATTERNS = [
     r"\b(?:stressed?|anxious|overwhelmed|worried|panic)\b.*\b(?:exam|deadline|submission|coursework|assignment|appeal|grade|fail)\b",
     r"\b(?:exam|deadline|submission|coursework)\b.*\b(?:stressed?|anxious|overwhelmed|worried)\b",
@@ -113,21 +102,17 @@ EXTENUATING_ALIASES = {
     "hospital", "hospitalised", "hospitalized",
     "surgery", "operation", "injured", "injury",
     "covid", "flu", "virus",
-
     # Mental health
     "depression", "depressed", "panic attack",
-
     # Family & personal emergencies
     "family emergency", "personal emergency",
     "personal circumstances", "personal issues",
     "issues at home", "family issues",
     "bereavement", "funeral", "death in family",
     "parent ill", "relative ill",
-
     # Accidents & unexpected events
     "accident", "emergency", "unexpected situation",
     "car accident", "injured myself",
-
     # Impact on study
     "missed deadline", "missed exam",
     "could not submit", "couldn't submit",
@@ -152,50 +137,40 @@ WITHDRAWAL_ALIASES = {
     "defer", "deferral",
 }
 
-MAX_POLICIES = 2
+MAX_POLICIES = 3  # Increased from 2 — use more retrieved context
+
 
 # ==================================================
 # OFF-TOPIC BLOCKLIST
-# Questions containing these terms are rejected even if they mention
-# "university", "student", etc. They are clearly not academic policy questions.
 # ==================================================
 
 OFF_TOPIC_SUBJECTS = {
     # Weapons & safety threats
     "knife", "knives", "weapon", "weapons", "gun", "guns", "firearm",
     "bomb", "explosive", "blade", "sword", "axe", "violence",
-
     # Food & drink
     "cook", "cooking", "recipe", "food", "eat", "eating", "drink",
     "coffee", "lunch", "dinner", "breakfast", "meal", "pasta", "pizza",
-
     # Transport & travel (non-academic)
     "drive", "driving", "car", "bus", "train", "flight", "travel",
     "parking", "commute",
-
     # Weather & environment
     "weather", "rain", "sunny", "temperature", "forecast",
-
     # Entertainment
     "movie", "film", "song", "music", "game", "sport", "football",
     "netflix", "spotify",
-
     # General life / personal
     "relationship", "dating", "boyfriend", "girlfriend", "marriage",
     "shopping", "fashion", "hair", "makeup",
 }
+
 
 # ==================================================
 # MATCHING HELPERS
 # ==================================================
 
 def _token_match(q: str, aliases: set) -> bool:
-    """
-    Match whole-word tokens against the alias set.
-    Avoids substring false positives (e.g. 'miss' inside 'dismiss').
-    """
     for alias in aliases:
-        # Build a pattern that matches the alias as a whole phrase
         pattern = r"\b" + re.escape(alias) + r"\b"
         if re.search(pattern, q):
             return True
@@ -203,19 +178,64 @@ def _token_match(q: str, aliases: set) -> bool:
 
 
 def _phrase_match(q: str, patterns: List[str]) -> bool:
-    """Match any regex pattern from the list against q."""
     return any(re.search(p, q) for p in patterns)
 
 
-def _confidence_from_context(context: List[Dict], base: int = 50) -> int:
+def _confidence_from_scores(scores: List[float], base: int = 50) -> int:
     """
-    Heuristically scale confidence based on retrieved context quality.
-    Returns an integer 0–95.
+    Derive confidence from actual retrieval scores rather than chunk count.
+    Higher top scores and tighter clustering = more confidence.
+    Returns an integer 0-95.
     """
-    if not context:
+    if not scores:
         return max(0, base - 20)
-    boost = min(len(context) * 3, 15)  # up to +15 for multiple hits
-    return min(95, base + boost)
+
+    top = scores[0]
+    # Normalise: a score of ~20 is strong, ~5 is weak
+    score_boost = min(int(top * 1.5), 30)
+
+    # Tight clustering between top scores adds a little more confidence
+    if len(scores) >= 2:
+        gap = top - scores[1]
+        if gap < 2:  # top result isn't clearly dominant
+            score_boost = max(0, score_boost - 5)
+
+    return min(95, base + score_boost)
+
+
+# ==================================================
+# CONTEXT SYNTHESIS
+# ==================================================
+
+def _synthesise_context(context: List[Dict]) -> str:
+    """
+    Build a readable multi-chunk answer body from retrieved policy sections.
+    Groups by policy to avoid repetition and shows meaningful excerpts.
+    """
+    seen_keys = set()
+    grouped: Dict[str, List[Dict]] = {}
+
+    for c in context:
+        key = (c["policy"], c["section"])
+        if key in seen_keys:
+            continue
+        seen_keys.add(key)
+        grouped.setdefault(c["policy"], []).append(c)
+        if len(seen_keys) >= MAX_POLICIES:
+            break
+
+    lines = []
+    for policy, chunks in grouped.items():
+        for chunk in chunks:
+            # Use up to 3 sentences from each chunk for a richer answer
+            sentences = re.split(r'(?<=[.!?])\s+', chunk["text"])
+            excerpt = " ".join(sentences[:3]).strip()
+            if excerpt:
+                lines.append(f"**{chunk['policy']} — {chunk['section']}**")
+                lines.append(excerpt)
+                lines.append("")
+
+    return "\n".join(lines).strip()
 
 
 # ==================================================
@@ -224,7 +244,6 @@ def _confidence_from_context(context: List[Dict], base: int = 50) -> int:
 
 def attendance_limit_answer() -> str:
     return (
-        "Confidence: 60%\n\n"
         "Arden University does not define a fixed number of classes you may miss.\n\n"
         "Attendance and engagement are assessed based on expected participation. "
         "Ongoing non-engagement may trigger academic monitoring, support "
@@ -233,30 +252,38 @@ def attendance_limit_answer() -> str:
         "If you are unwell or facing difficulties, you should inform your tutor "
         "or Student Support as soon as possible.\n\n"
         "Source: Attendance and Engagement Policy"
-    )
+    ), 60
 
 
-def academic_appeal_answer(context: List[Dict]) -> str:
-    confidence = _confidence_from_context(context, base=65)
-    return (
-        f"Confidence: {confidence}%\n\n"
+def academic_appeal_answer(context: List[Dict], scores: List[float]) -> tuple:
+    confidence = _confidence_from_scores(scores, base=65)
+    body = (
         "You cannot normally appeal academic judgement itself.\n\n"
         "However, you may submit an academic appeal if you believe:\n"
         "- A procedural irregularity occurred\n"
         "- Relevant evidence was not considered\n"
         "- Approved mitigating circumstances affected the assessment\n\n"
         "Appeals must follow the Academic Appeals Procedure and be submitted "
-        "within the published timescales.\n\n"
-        "Source: Academic Appeals Process"
+        "within the published timescales."
     )
-
-
-def extenuating_circumstances_answer(context: List[Dict]) -> str:
-    confidence = _confidence_from_context(context, base=60)
     if context:
-        return general_policy_answer(context, label="Extenuating / Mitigating Circumstances", base_confidence=confidence)
-    return (
-        f"Confidence: {confidence}%\n\n"
+        extra = _synthesise_context(context)
+        if extra:
+            body += f"\n\n{extra}"
+    body += "\n\nSource: Academic Appeals Process"
+    return body, confidence
+
+
+def extenuating_circumstances_answer(context: List[Dict], scores: List[float]) -> tuple:
+    confidence = _confidence_from_scores(scores, base=60)
+    if context:
+        body = (
+            "If personal circumstances have affected your ability to study or complete "
+            "assessments, you may be eligible to submit an Extenuating Circumstances claim.\n\n"
+        )
+        body += _synthesise_context(context)
+        return body, confidence
+    body = (
         "If personal circumstances have affected your ability to study or complete "
         "assessments, you may be eligible to submit an Extenuating Circumstances claim.\n\n"
         "You should:\n"
@@ -265,6 +292,7 @@ def extenuating_circumstances_answer(context: List[Dict]) -> str:
         "- Submit your claim within the published deadline\n\n"
         "Source: Extenuating Circumstances Policy"
     )
+    return body, confidence
 
 
 # ==================================================
@@ -273,59 +301,38 @@ def extenuating_circumstances_answer(context: List[Dict]) -> str:
 
 def general_policy_answer(
     context: List[Dict],
+    scores: List[float],
     label: str = "Based on official Arden University policy documents",
     base_confidence: int = 50
-) -> str:
-    confidence = _confidence_from_context(context, base=base_confidence)
-    lines = [
-        f"Confidence: {confidence}%\n",
-        f"{label}:\n"
-    ]
-
-    seen = set()
-    for c in context:
-        key = (c["policy"], c["section"])
-        if key in seen:
-            continue
-        seen.add(key)
-
-        sentences = re.split(r"(?<=[.!?])\s+", c["text"])
-        snippet = sentences[0]
-
-        lines.append(f"{c['policy']}")
-        lines.append(f"Section: {c['section']}")
-        lines.append(f"- {snippet}\n")
-
-        if len(seen) >= MAX_POLICIES:
-            break
-
-    lines.append(
-        "This response is limited to published policy content and does not provide personal advice."
+) -> tuple:
+    confidence = _confidence_from_scores(scores, base=base_confidence)
+    body_parts = [f"{label}:\n"]
+    body_parts.append(_synthesise_context(context))
+    body_parts.append(
+        "\nThis response is limited to published policy content and does not provide personal advice."
     )
-    return "\n".join(lines)
+    return "\n".join(body_parts), confidence
 
 
 # ==================================================
 # FALLBACK ANSWERS
 # ==================================================
 
-def out_of_scope_answer() -> str:
+def out_of_scope_answer() -> tuple:
     return (
-        "Confidence: 0%\n\n"
         "I can only help with questions about Arden University regulations, "
         "policies, and student processes.\n\n"
         "For example, I can help with attendance rules, appeals, assessments, "
         "academic integrity, extensions, or withdrawals.\n\n"
         "Your question does not fall within that scope."
-    )
+    ), 0
 
 
-def no_answer() -> str:
+def no_answer() -> tuple:
     return (
-        "Confidence: 25%\n\n"
         "I cannot identify a specific Arden University policy that directly answers this question.\n\n"
         "You should consult your programme handbook or Student Support."
-    )
+    ), 25
 
 
 # ==================================================
@@ -334,12 +341,8 @@ def no_answer() -> str:
 
 def is_domain_question(question: str) -> bool:
     q = question.lower()
-
-    # Blocklist checked FIRST — rejects off-topic questions even if they
-    # contain "university", "student", etc. (e.g. "bring a knife at university")
     if _token_match(q, OFF_TOPIC_SUBJECTS):
         return False
-
     if _token_match(q, DOMAIN_KEYWORDS):
         return True
     if is_attendance_question(q):
@@ -373,7 +376,6 @@ def is_support_question(q: str) -> bool:
     has_support_signal = _token_match(q, SUPPORT_INTENT_KEYWORDS)
     if not has_support_signal:
         return False
-    # If the question mixes support with a policy topic, let policy routing handle it
     if _phrase_match(q, SUPPORT_WITH_POLICY_PATTERNS):
         return False
     return True
@@ -391,13 +393,18 @@ def is_withdrawal_question(q: str) -> bool:
 # MAIN ROUTER
 # ==================================================
 
-def answer(question: str, context: List[Dict]) -> str:
+def answer(question: str, context: List[Dict], scores: List[float] = None) -> str:
+    """
+    Route the question to the best answer strategy.
+    `scores` should be the retrieval scores corresponding to each context chunk
+    (in the same order). If not provided, confidence falls back to chunk count.
+    """
     q = question.lower()
+    scores = scores or []
 
     # 1. Support / wellbeing intent ONLY when no policy topic is mixed in
     if is_support_question(q):
-        return (
-            "Confidence: 40%\n\n"
+        body = (
             "I can't provide personal or wellbeing advice.\n\n"
             "However, Arden University policies reference support mechanisms such as "
             "reasonable adjustments, extensions, mitigating circumstances, and "
@@ -405,22 +412,42 @@ def answer(question: str, context: List[Dict]) -> str:
             "If stress or anxiety is affecting your studies, you may wish to contact "
             "Student Support or review guidance on mitigating or extenuating circumstances."
         )
+        return _format_response(body, 40)
 
     # 2. Hard domain gate
     if not is_domain_question(q):
-        return out_of_scope_answer()
+        body, confidence = out_of_scope_answer()
+        return _format_response(body, confidence)
 
-    # 3. Attendance (strong intent — fixed answer)
-    if is_attendance_question(q):
-        return attendance_limit_answer()
-
-    # 4. Extenuating / mitigating circumstances (check before appeals to avoid overlap)
+    # 3. Extenuating / mitigating circumstances
     if is_extenuating_question(q):
-        return extenuating_circumstances_answer(context)
+        filtered = [
+            c for c in context
+            if "misconduct" not in c["policy"].lower()
+            and "integrity" not in c["policy"].lower()
+            and "disability" not in c["policy"].lower()
+            and "reasonable adjustments" not in c["policy"].lower()
+            and "attendance" not in c["policy"].lower()
+        ]
+        filtered_scores = [scores[i] for i, c in enumerate(context)
+            if "misconduct" not in context[i]["policy"].lower()
+            and "integrity" not in context[i]["policy"].lower()
+            and "disability" not in context[i]["policy"].lower()
+            and "reasonable adjustments" not in context[i]["policy"].lower()
+            and "attendance" not in context[i]["policy"].lower()
+        ] if scores else []
+        body, confidence = extenuating_circumstances_answer(filtered or context, filtered_scores or scores)
+        return _format_response(body, confidence)
+
+    # 4. Attendance (strong intent — fixed answer)
+    if is_attendance_question(q):
+        body, confidence = attendance_limit_answer()
+        return _format_response(body, confidence)
 
     # 5. Academic appeals
     if is_appeal_question(q):
-        return academic_appeal_answer(context)
+        body, confidence = academic_appeal_answer(context, scores)
+        return _format_response(body, confidence)
 
     # 6. Plagiarism / misconduct (filter context to relevant policies)
     if is_plagiarism_question(q):
@@ -428,20 +455,33 @@ def answer(question: str, context: List[Dict]) -> str:
             c for c in context
             if any(p in c["policy"].lower() for p in PLAGIARISM_POLICIES)
         ]
+        filtered_scores = [scores[i] for i, c in enumerate(context) if any(p in c["policy"].lower() for p in PLAGIARISM_POLICIES)] if scores else []
         if filtered:
-            return general_policy_answer(filtered, base_confidence=55)
-        return no_answer()
+            body, confidence = general_policy_answer(filtered, filtered_scores, base_confidence=55)
+            return _format_response(body, confidence)
+        body, confidence = no_answer()
+        return _format_response(body, confidence)
 
     # 7. Withdrawal / interruption
     if is_withdrawal_question(q):
         if context:
-            return general_policy_answer(context, base_confidence=55)
-        return no_answer()
+            body, confidence = general_policy_answer(context, scores, base_confidence=55)
+            return _format_response(body, confidence)
+        body, confidence = no_answer()
+        return _format_response(body, confidence)
 
     # 8. Generic policy fallback
     if context:
-        return general_policy_answer(context)
-    return no_answer()
+        body, confidence = general_policy_answer(context, scores)
+        return _format_response(body, confidence)
+
+    body, confidence = no_answer()
+    return _format_response(body, confidence)
+
+
+def _format_response(body: str, confidence: int) -> str:
+    """Prepend the confidence line that app.py expects to parse."""
+    return f"Confidence: {confidence}%\n\n{body}"
 
 
 # ==================================================

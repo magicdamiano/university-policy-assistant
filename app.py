@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
-from retrieve import retrieve
-from agent import generate_answer
+from retrieve import retrieve_with_scores
+from agent import answer
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def index():
 
 @app.route("/ask", methods=["POST"])
 def ask():
-    # --- Input validation ---
+    # -- Input validation --
     question = request.form.get("question", "").strip()
 
     if not question:
@@ -30,10 +30,10 @@ def ask():
             "error": "Question is too long. Please keep it under 1000 characters."
         }), 400
 
-    # --- Retrieve + answer ---
+    # -- Retrieve + answer --
     try:
-        context = retrieve(question)
-        raw_answer = generate_answer(question, context)
+        context, scores = retrieve_with_scores(question)
+        raw_answer = answer(question, context, scores)
     except Exception as e:
         app.logger.error(f"Error processing question: {e}")
         return jsonify({
@@ -41,11 +41,11 @@ def ask():
             "error": "An internal error occurred. Please try again."
         }), 500
 
-    # --- Parse confidence out of the answer string ---
+    # -- Parse confidence out of the answer string --
     confidence = _extract_confidence(raw_answer)
     answer_body = _strip_confidence_line(raw_answer)
 
-    # --- Build sources list from context ---
+    # -- Build sources list from context --
     sources = _build_sources(context)
 
     return jsonify({
