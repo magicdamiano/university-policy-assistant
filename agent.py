@@ -428,6 +428,7 @@ def answer(question: str, context: List[Dict], scores: List[float] = None) -> st
             and "disability" not in c["policy"].lower()
             and "reasonable adjustments" not in c["policy"].lower()
             and "attendance" not in c["policy"].lower()
+            and "regulatory" not in c["policy"].lower()
         ]
         filtered_scores = [scores[i] for i, c in enumerate(context)
             if "misconduct" not in context[i]["policy"].lower()
@@ -435,6 +436,7 @@ def answer(question: str, context: List[Dict], scores: List[float] = None) -> st
             and "disability" not in context[i]["policy"].lower()
             and "reasonable adjustments" not in context[i]["policy"].lower()
             and "attendance" not in context[i]["policy"].lower()
+            and "regulatory" not in c["policy"].lower()
         ] if scores else []
         body, confidence = extenuating_circumstances_answer(filtered or context, filtered_scores or scores)
         return _format_response(body, confidence)
