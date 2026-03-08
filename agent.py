@@ -485,8 +485,8 @@ def answer(question: str, context: List[Dict], scores: List[float] = None) -> st
         body, confidence = no_answer()
         return _format_response(body, confidence)
 
-    # 8. Generic policy fallback
-    if context:
+    # 8. Generic policy fallback — only respond if confidence is high enough
+    if context and scores and scores[0] > 10:
         body, confidence = general_policy_answer(context, scores)
         return _format_response(body, confidence)
 
